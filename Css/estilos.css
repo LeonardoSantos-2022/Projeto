@@ -248,7 +248,10 @@ footer p{
  font-size: 45px;
  color: #fff;
 }
-
+.botao-menu:hover{
+    transition: 0.5s;
+    color: rgb(117, 115, 115);
+}
 }
 @media(max-width:402px){
     h1{
