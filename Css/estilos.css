@@ -14,7 +14,7 @@ body{
     position: fixed; 
     border-bottom: 4px solid #ccc;
 }
-
+/* canais */
 .canais li a{
     text-decoration: none;
     list-style: none;
