@@ -168,7 +168,7 @@ ul li {
     margin-top: 40px;
 }
 
-p{  text-shadow: 1px -1px ;
+p{  
     padding: 20px;
     margin: 30px 5px;
     font-size: 20px;
@@ -200,7 +200,7 @@ footer p{
         text-decoration: none;
         display:block;   
     }
-    p{ text-shadow: 1px -1px ;
+    p{ 
       font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
     }
@@ -258,7 +258,7 @@ footer p{
         width: 30%;
         height: 120px;
     }
-   p{ text-shadow: 1px -1px ;
+   p{ 
        font-size: 1.4em;
    }
    
