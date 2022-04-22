@@ -1,5 +1,5 @@
 #  primeiro projeto :open_file_folder: :computer::
 
- ## feito em html e css javascript 
+ ## feito em html5 e css3 javascript 
  
  
