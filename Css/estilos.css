@@ -253,7 +253,7 @@ footer p{
 }
 @media(max-width:402px){
     h1{
-        display: none;
+        width: 45%;
     }
     video{
         width: 30%;
