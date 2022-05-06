@@ -53,26 +53,24 @@ h1 {
 
 h2 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     color: #000;
     margin: 0 10px;
 }
 
 h3 {
     color: #000;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 h2 {
     margin-top: 20px;
     text-align: center;
     font-size: 27px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
-h3 {
-    font-size: 30px;
-}
+
 
 /* imagens */
 img {
@@ -86,7 +84,20 @@ img {
     border-radius: 2%;
     margin-bottom: 20px;
     margin-top: 30px;
+    height: 40%;
 
+}
+.img3 {
+    width: 40%;
+    box-shadow: 0 4px 8px 1px #000;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+.img3 :hover {
+    font-size: 25px;
+    
 }
 
 .imagens {
@@ -103,16 +114,25 @@ img {
 
 .conteudo2 {
     margin-top: 15px;
+    text-align: center;
+   
 }
-
+.conteudo3{
+    margin-top: 100px;
+    text-align: center;
+    background: linear-gradient(#fff, rgb(212, 210, 210));
+   
+}
 .conteudo p {
     width: 80%;
 }
 
-
+.texto{
+    width: 50%;  
+}
 .conteudo {
     text-align: center;
-    margin-top: 98px;
+    margin-top: 105px;
     background: linear-gradient(#fff, rgb(212, 210, 210));
     box-shadow: 0 8px 3px 4px #000;
 }
@@ -193,7 +213,7 @@ ul li {
 }
 
 p {
-    padding: 20px;
+
     margin: 30px 5px;
     font-size: 20px;
     margin: auto;
@@ -306,11 +326,13 @@ footer p {
         margin-top: 20px;
         color: #000;
         margin: 0 10px;
+        font-size: 3.1rem;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     h3 {
         color: #000;
-        font-size: 2.1rem;
+        font-size: 3.1rem;
     }
 
     h2 {
