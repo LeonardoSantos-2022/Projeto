@@ -79,16 +79,16 @@ img {
 }
 
 .img2 {
-    width: 60%;
+    width: 40%;
     box-shadow: 0 4px 8px 1px #000;
     border-radius: 2%;
     margin-bottom: 20px;
     margin-top: 30px;
-    height: 40%;
+    height: 20%;
 
 }
 .img3 {
-    width: 40%;
+    width: 30%;
     box-shadow: 0 4px 8px 1px #000;
     border-radius: 2%;
     margin-bottom: 20px;
@@ -189,13 +189,10 @@ ul li {
     padding: 10px;
 
 }
-
-
 .canais li {
     text-decoration: none;
     list-style: none;
     color: #000;
-
 }
 
 .canais>li :hover {
