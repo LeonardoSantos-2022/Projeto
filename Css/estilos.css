@@ -284,9 +284,7 @@ footer p {
         margin-bottom: 20px;
         margin-top: 30px;
     }
-    .logo2{
-        border-radius: 50%;
-    }
+
 
     .menu-navebar li a:hover {
         transition: 0.5s;
@@ -328,6 +326,8 @@ footer p {
 }
 
 @media(max-width:414px) {
+    
+    
     h1 {
         display: block;
     }
@@ -349,7 +349,7 @@ footer p {
 }
 
     video {
-        width: 30%;
+        width: 60%;
         height: 120px;
     }
 
@@ -382,13 +382,13 @@ footer p {
         font-size: 1.5em;
     }
      .video{
-         width: 200px;
+         width: 90%;
          height: 200px;
      }
 
      .videos{
-         width: 200px;
-         height: 200px;
+         width: 90%;
+         height: 90%;
      }
      .item {
         top: 0;
@@ -398,7 +398,7 @@ footer p {
         top: 0;
     }
     .img2 {
-        width: 60%;
+        width: 70%;
         box-shadow: 0 4px 8px 1px #000;
         border-radius: 2%;
         margin-bottom: 20px;
@@ -407,7 +407,7 @@ footer p {
         margin: 20px;
     }
     .img3 {
-        width: 60%;
+        width: 90%;
         box-shadow: 0 4px 8px 1px #000;
         border-radius: 2%;
         margin-bottom: 20px;
@@ -427,7 +427,7 @@ footer p {
     .video{
         width: 190px;
         height: 190px;
-        height: 190px;
+
     }
     .container{
      margin-top: 19px;
