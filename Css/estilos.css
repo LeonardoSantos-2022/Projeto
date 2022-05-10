@@ -72,6 +72,9 @@ h2 {
     
 }
 
+.menu{
+    display: none;
+}
 
 
 /* imagens */
@@ -142,7 +145,7 @@ padding: 10px;
 
 .conteudo {
     text-align: center;
-    margin-top: 107px;
+    margin-top: 87px;
     background: linear-gradient(#fff, rgb(212, 210, 210));
     box-shadow: 0 8px 3px 4px #000;
 }
@@ -177,6 +180,7 @@ padding: 10px;
 
 }
 
+
 ul li {
     list-style: none;
     font-size: 18px;
@@ -187,6 +191,7 @@ ul li {
     display: none;
 
 }
+
 
 /* video*/
 .video {
@@ -261,8 +266,13 @@ footer p {
         flex-direction: column;
         top: 0;
     }
+    .menu{
+        display: block;
+        position: absolute;
+    }
+    
     .conteudo {
-        margin-top: 45px;
+        margin-top: 95px;
     }
     p {
         font-family: Arial, Helvetica, sans-serif;
@@ -274,6 +284,7 @@ footer p {
         overflow: hidden;
         transition: all ease 0.5s;
     }
+    
     .img2 {
         width: 60%;
         box-shadow: 0 4px 8px 1px #000;
