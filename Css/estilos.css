@@ -120,6 +120,7 @@ padding: 10px;
     border-radius: 50%;
 }
 
+
 .conteudo {
     margin-top: 45px;
 }
@@ -223,7 +224,14 @@ p {
     font-size: 20px;
     margin: auto;
 }
-
+.img5{
+    border-radius: 50%;
+    position: fixed;
+    top: 395px;
+    width: 5%;
+    height: 10%;
+    right: 153px;
+}
 
 .rodapé {
     background-image: url(../img/bg.jpg);
@@ -307,7 +315,14 @@ footer p {
         margin: 20px;
     
     }
-  
+    .img5{
+        border-radius: 50%;
+        position: fixed;
+        top: 435px;
+        width: 15%;
+        height: 25%;
+        right: 20px;
+    }
 
     /*menu-navegacao*/
     .menu-navegacao {
@@ -376,6 +391,14 @@ footer p {
     transform: translateY(50%)rotate(45deg);
     bottom: 15px;
     transition: all ease 0.5s;
+}
+.img5{
+    border-radius: 50%;
+    position: fixed;
+    top: 435px;
+    width: 10%;
+    height: 10%;
+    right: 20px;
 }
 
 }
@@ -465,7 +488,13 @@ footer p {
         margin: 20px;
     
     }
-
+    .img5{
+        border-radius: 50%;
+        position: fixed;
+        top: 395px;
+        width: 15%;
+        height: 10%;
+    }
 }
 
 @media(max-width:320px) {
@@ -521,6 +550,13 @@ footer p {
         flex-direction: column;
         top: 0;
     }
+    .img5{
+        border-radius: 50%;
+        position: fixed;
+        top: 395px;
+        width: 17%;
+        height: 10%;
+    }
 }
     
 @media(max-height:375px) {
@@ -539,6 +575,6 @@ footer p {
         margin-top: 30px;
         height: 25%;
         margin: 20px;
-    }
 
+    }
 }
