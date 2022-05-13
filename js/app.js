@@ -1,7 +1,6 @@
 botao=document.querySelector('.botao-menu');
-menuChaveado=document.querySelector('.menu-navebar');
+menuChaveado=document.querySelector('.menu-horinzontal .menu');
 menuH=document.querySelector('.botao-menu')
-
 
 botao.addEventListener('click',function(){
     menuChaveado.classList.toggle('menu-active')
