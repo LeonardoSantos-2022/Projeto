@@ -126,7 +126,12 @@ padding: 10px;
     border-radius: 50%;
     text-align: center;
 }
-
+.logo4{
+    width: 30%;
+    margin-top: 170;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 .conteudo {
     margin-top: 45px;
 }
@@ -242,31 +247,39 @@ footer p {
     text-align: center;
 
 }
+.intem li :hover{
+    list-style: none;
 
+}
 @media (max-width:992px) {
 
     /* menu */
+    .item li {
+        text-align: center;
+    }
     .menu-horinzontal li a {
         color: #fff;
-        text-align: center;
-        font-size: 30px;
+        font-size: 250x;
         right: 20%;
-        
     }
     .menu-horinzontal{
         left: 0;
+
     }
     .menu-active {
         left: -100%;
+        
     }
 
     .menu{
         top: 0px;
         height: 100%;
         background-image: url(../img/bg.jpg);
-        width: 50%;
+        width: 100%;
         position: fixed;
         z-index: 1;
+        opacity: 0.8;
+        
     }
 
     .item{
@@ -274,7 +287,18 @@ footer p {
         color: #fff;
         opacity: 1;
         display: flex;
-        flex-direction: column;}
+        flex-direction: column;
+        
+      
+    }
+        
+    
+        .logo4{
+            width: 20%;
+            margin-top: 170;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
     
     .container-menuH{
         position: absolute;
@@ -290,8 +314,6 @@ footer p {
         font-size: 20px;
     }
 
-
-    
     .img2 {
         width: 60%;
         box-shadow: 0 4px 8px 1px #000;
@@ -330,15 +352,18 @@ footer p {
         position: fixed;
         position: absolute;
         top: 0;
-        z-index: 1;
-
-        
+        z-index: 1  
     }
 
-i{ margin: 5%;
-    font-size: 100%;
+    i{ margin: 1%;
+        font-size: 50px;
     color: #fff;
     z-index: 1;
+    }
+    .me{
+        margin-top: -110px;
+        font-size: 30px;
+        
 }
     /*menu-navegacao*/
     .menu-navegacao {
@@ -352,9 +377,6 @@ i{ margin: 5%;
         margin-top: 22px;
         display: none;
     }
-
-
-    
 
     /*menu hamburguer*/
 
@@ -413,20 +435,20 @@ i{ margin: 5%;
   
 }
 
+
 }
 @media(max-width:414px) {
     .menu-horinzontal li a {
         color: #fff;
-        text-align: center;
-        font-size: 1.0em;
-       
-        
+            font-size: 25px;
+            right: 20%; 
     }
     .menu-horinzontal li i{
-        margin: 5%;
+            margin: 1%;
         font-size: 1.2em;
         color: #fff;
         z-index: 1;
+        
     }
 
     .logo2{
@@ -517,7 +539,7 @@ i{ margin: 5%;
 
 @media(max-width:320px) {
     .menu-horinzontal li i{
-        margin: 1%;
+            margin: 5%;
         font-size: 1.1em;
         color: #fff;
         z-index: 1;
@@ -572,7 +594,7 @@ i{ margin: 5%;
         opacity: 1;
         display: flex;
         flex-direction: column;
-        top: 0;
+            margin-top: 210;
     }
     .img5{
         border-radius: 50%;
@@ -586,9 +608,8 @@ i{ margin: 5%;
 }
     
 @media(max-height:375px) {
-
     .menu-horinzontal li i{
-        margin: 15%;
+            margin: 1%;
         font-size: 1.2em;
         color: #fff;
         z-index: 1;}
@@ -609,5 +630,10 @@ i{ margin: 5%;
         margin: 20px;
 
     }
-    
+    .logo4{
+        display: none;
+    }
+    p{
+        display: none;
+    }
 }
