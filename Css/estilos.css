@@ -270,6 +270,7 @@ footer p {
     position: fixed;
     transition:1s ;
     z-index: 1;
+    opacity: 0.;
 
     }  .menu-active {
     left: -100%;
@@ -353,8 +354,8 @@ footer p {
     z-index: 1;
     }
     .me{
-    margin-top: -110px;
-    font-size: 30px;
+    margin-top: -95px;
+    font-size: 20px;
 
     }
     /*menu-navegacao*/
@@ -437,9 +438,9 @@ footer p {
         }
         .menu-horinzontal li i{
             margin: 1%;
-        font-size: 1.2em;
-        color: #fff;
-        z-index: 1;
+            font-size: 1.2em;
+            color: #fff;
+            z-index: 1;
 
         }
 
