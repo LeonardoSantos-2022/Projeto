@@ -46,7 +46,6 @@ h1 {
     margin: 0 10px;
 
 }
-
 h2 {
     text-align: center;
     margin-top: 10px;
@@ -252,129 +251,123 @@ footer p {
 
 }
 @media (max-width:992px) {
-
     /* menu */
     .item li {
-        text-align: center;
+    text-align: center;
     }
     .menu-horinzontal li a {
-        color: #fff;
-        font-size: 250x;
-        right: 20%;
+    color: #fff;
+    font-size: 250x;
+    right: 20%;
     }
-    .menu-horinzontal{
-        left: 0;
-
-    }
-    .menu-active {
-        left: -100%;
-        
-    }
-
+    
     .menu{
-        top: 0px;
-        height: 100%;
-        background-image: url(../img/bg.jpg);
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-        opacity: 0.8;
-        
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    left: 0;
+    position: fixed;
+    transition:1s ;
+    z-index: 1;
+
+    }  .menu-active {
+    left: -100%;
+    transition: 1s;
+        }
+    .item{
+    margin-top: 200px;
+    color: #fff;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+
+
     }
 
-    .item{
-        margin-top: 200px;
-        color: #fff;
-        opacity: 1;
-        display: flex;
-        flex-direction: column;
-        
-      
+
+    .logo4{
+        width: 20%;
+        margin-top: 170;
+        border-radius: 50%;
+        margin: 0 auto;
     }
-        
-    
-        .logo4{
-            width: 20%;
-            margin-top: 170;
-            border-radius: 50%;
-            margin: 0 auto;
-        }
-    
+
     .container-menuH{
-        position: absolute;
-        display: flex;
-        right: 0;
+    position: absolute;
+    display: flex;
+    right: 0;
     }
     .container{
-        margin-top: 19px;}
-    
+    margin-top: 19px;}
+
 
     p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     }
     .img2 {
-        width: 60%;
-        box-shadow: 0 4px 8px 1px #000;
-        border-radius: 2%;
-        margin-bottom: 20px;
-        margin-top: 30px;
-        height: 60%;
-        margin: 20px;
+    width: 60%;
+    box-shadow: 0 4px 8px 1px #000;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    height: 60%;
+    margin: 20px;
     }
     .img3 {
-        width: 60%;
-        box-shadow: 0 4px 8px 1px #000;
-        border-radius: 2%;
-        margin-bottom: 20px;
-        margin-top: 30px;
+    width: 60%;
+    box-shadow: 0 4px 8px 1px #000;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    margin-top: 30px;
     }
 
     .img4 {
-        width: 35%;
-        box-shadow: 0 4px 8px 1px #000;
-        border-radius: 30%;
-        margin-bottom: 20px;
-        margin-top: 30px;
-        height: 35%;
-        margin: 20px;
-    
+    width: 35%;
+    box-shadow: 0 4px 8px 1px #000;
+    border-radius: 30%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    height: 35%;
+    margin: 20px;
+
     }
     .img5{
-        border-radius: 50%;
-        position: fixed;
-        
+    border-radius: 50%;
+    position: fixed;
+
     }
 
     .img6{
-        width: 10px;
-        position: fixed;
-        position: absolute;
-        top: 0;
-        z-index: 1  
+    width: 10px;
+    position: fixed;
+    position: absolute;
+    top: 0;
+    z-index: 1  
     }
 
     i{ margin: 1%;
-        font-size: 50px;
+    font-size: 50px;
     color: #fff;
     z-index: 1;
     }
     .me{
-        margin-top: -110px;
-        font-size: 30px;
-        
-}
+    margin-top: -110px;
+    font-size: 30px;
+
+    }
     /*menu-navegacao*/
     .menu-navegacao {
-        top: 20px;
-        font-size: 95%x;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 5px;
-        display: inline-block;
-        text-decoration: none;
-        color: #fff;
-        margin-top: 22px;
-        display: none;
+    top: 20px;
+    font-size: 95%x;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 22px;
+    display: none;
     }
 
     /*menu hamburguer*/
@@ -388,127 +381,127 @@ footer p {
     display: flex;
     overflow: hidden;
     }
-  
+
     .botao-menu .line{
-        border-radius: 7px;
-        position: absolute;
-        background-color: #fff;
-        height: 3px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+    border-radius: 7px;
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     }
     .line1{
-      top: 2px;
-      transition: all ease 0.5s;
+    top: 2px;
+    transition: all ease 0.5s;
     }
 
     .line2{
-        transition: all ease 0.5s;
-        left: 0;
+    transition: all ease 0.5s;
+    left: 0;
     }
 
     .line3{
-        bottom: 2px;
-        transition: all ease 0.5s;
+    bottom: 2px;
+    transition: all ease 0.5s;
     }
-.active .line1 {
+    .active .line1 {
     top: 15px;
-   transform: translateY(50%)rotate(-45deg);
-   transition: all ease 0.5s;
-}
-.active .line2 {
+    transform: translateY(50%)rotate(-45deg);
+    transition: all ease 0.5s;
+    }
+    .active .line2 {
     transition: all ease 0.5s;
     left: -35px;
-}
-.active .line3 {
+    }
+    .active .line3 {
     transform: translateY(50%)rotate(45deg);
     bottom: 15px;
     transition: all ease 0.5s;
-}
-.img5{
+    }
+    .img5{
     border-radius: 50%;
     position: fixed;
     top: 0px;
-  
-}
+
+    }
 
 
 }
-@media(max-width:414px) {
-    .menu-horinzontal li a {
-        color: #fff;
+    @media(max-width:414px) {
+        .menu-horinzontal li a {
+            color: #fff;
             font-size: 25px;
             right: 20%; 
-    }
-    .menu-horinzontal li i{
+        }
+        .menu-horinzontal li i{
             margin: 1%;
         font-size: 1.2em;
         color: #fff;
         z-index: 1;
-        
-    }
 
-    .logo2{
+        }
+
+        .logo2{
         margin-left: 125px;
-    }
-    h1 {
-       width: 20%;
+        }
+        h1 {
+        width: 20%;
         display: none;
-    }
+        }
 
-    .conteudo {
+        .conteudo {
         margin-top: 89px;
-    }
-    .conteudo3 {
+        }
+        .conteudo3 {
         margin-top: 93px;
-    }
+        }
 
-    video {
+        video {
         width: 70%;
         height: 120px;
-    }
+        }
 
-    p {
+        p {
         font-size: 1.4em;
-    }
+        }
 
-    h2 {
+        h2 {
         text-align: center;
         margin-top: 20px;
         color: #000;
         margin: 0 10px;
         font-size: 3.1rem;
         font-family: Arial, Helvetica, sans-serif;
-    }
+        }
 
-    h3 {
+        h3 {
         color: #000;
         font-size: 3.1rem;
-    }
+        }
 
-    h2 {
+        h2 {
         margin-top: 20px;
         font-size: 2.1em;
         margin-bottom: 20px;
-    }
+        }
 
-    h3 {
+        h3 {
         font-size: 1.5em;
-    }
-     .video{
-         width: 90%;
-         height: 200px;
-     }
+        }
+        .video{
+            width: 90%;
+            height: 200px;
+        }
 
-     .videos{
-         width: 90%;
-         height: 100%;
-     }
+        .videos{
+            width: 90%;
+            height: 100%;
+        }
 
-    
-    .img2 {
+
+        .img2 {
         width: 70%;
         box-shadow: 0 4px 8px 1px #000;
         border-radius: 2%;
@@ -516,15 +509,15 @@ footer p {
         margin-top: 30px;
         height: 60%;
         margin: 20px;
-    }
-    .img3 {
+        }
+        .img3 {
         width: 90%;
         box-shadow: 0 4px 8px 1px #000;
         border-radius: 2%;
         margin-bottom: 20px;
         margin-top: 30px;
-    }
-    .img4 {
+        }
+        .img4 {
         width: 40%;
         box-shadow: 0 4px 8px 1px #000;
         border-radius: 30%;
@@ -532,107 +525,101 @@ footer p {
         margin-top: 30px;
         height: 40%;
         margin: 20px;
-    }
+        }
+
+        }
+
+        @media(max-width:320px) {
+            .menu-horinzontal li i{
+                margin: 5%;
+                font-size: 1.1em;
+                color: #fff;
+                z-index: 1;
+            }
+            .logo2{
+            margin-left: 89px;
+            }
+
+            h1{
+            width: 200px;
+            display: none;   
+            }
+            .conteudo{
+            margin-top: 100px;
+            }
+            .video{
+            width: 190px;
+            height: 190px;
+
+            }
+            .container{
+            margin-top: 19px;
+            }
+            .img2 {
+            width: 70%;
+            box-shadow: 0 4px 8px 1px #000;
+            border-radius: 2%;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            height: 50%;
+            margin: 20px;
+            }
+            .img3 {
+            width: 70%;
+            box-shadow: 0 4px 8px 1px #000;
+            border-radius: 2%;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            }
+            .img4 {
+            width: 25%;
+            box-shadow: 0 4px 8px 1px #000;
+            border-radius: 30%;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            height: 25%;
+            margin: 20px;
+
+            }
+            .item {
+            top: 0;
+            opacity: 1;
+            display: flex;
+            flex-direction: column;
+                margin-top: 210;
+            }
+            .img5{
+            border-radius: 50%;
+            position: fixed;
+            top: 395px;
+            width: 17%;
+            height: 10%;
+            }
+
+
+                }
     
-}
+                @media(max-height:375px) {
+                .menu-horinzontal li i{
+                margin: 1%;
+                font-size: 1.2em;
+                color: #fff;
+                z-index: 1;}
+                .conteudo{
+                margin-top: 89px;
+                }
+                .conteudo3{
+                margin-top: 89px;
 
-@media(max-width:320px) {
-    .menu-horinzontal li i{
-            margin: 5%;
-        font-size: 1.1em;
-        color: #fff;
-        z-index: 1;
-    }
-    .logo2{
-        margin-left: 89px;
-    }
+                }
+                .img4 {
+                width: 25%;
+                box-shadow: 0 4px 8px 1px #000;
+                border-radius: 30%;
+                margin-bottom: 20px;
+                margin-top: 30px;
+                height: 25%;
+                margin: 20px;
 
-    h1{
-        width: 200px;
-        display: none;   
-    }
-    .conteudo{
-        margin-top: 100px;
-    }
-    .video{
-        width: 190px;
-        height: 190px;
-
-    }
-    .container{
-     margin-top: 19px;
-     }
-     .img2 {
-        width: 70%;
-        box-shadow: 0 4px 8px 1px #000;
-        border-radius: 2%;
-        margin-bottom: 20px;
-        margin-top: 30px;
-        height: 50%;
-        margin: 20px;
-    }
-    .img3 {
-        width: 70%;
-        box-shadow: 0 4px 8px 1px #000;
-        border-radius: 2%;
-        margin-bottom: 20px;
-        margin-top: 30px;
-    }
-    .img4 {
-        width: 25%;
-        box-shadow: 0 4px 8px 1px #000;
-        border-radius: 30%;
-        margin-bottom: 20px;
-        margin-top: 30px;
-        height: 25%;
-        margin: 20px;
-    
-    }
-    .item {
-        top: 0;
-        opacity: 1;
-        display: flex;
-        flex-direction: column;
-            margin-top: 210;
-    }
-    .img5{
-        border-radius: 50%;
-        position: fixed;
-        top: 395px;
-        width: 17%;
-        height: 10%;
-    }
-
-
-}
-    
-@media(max-height:375px) {
-    .menu-horinzontal li i{
-            margin: 1%;
-        font-size: 1.2em;
-        color: #fff;
-        z-index: 1;}
-.conteudo{
-    margin-top: 89px;
-}
-.conteudo3{
-    margin-top: 89px;
-    
-    }
-    .img4 {
-        width: 25%;
-        box-shadow: 0 4px 8px 1px #000;
-        border-radius: 30%;
-        margin-bottom: 20px;
-        margin-top: 30px;
-        height: 25%;
-        margin: 20px;
-
-    }
-    .logo4{
-        display: none;
-    }
-    p{
-        display: none;
-    }
-}
+                }
+            }

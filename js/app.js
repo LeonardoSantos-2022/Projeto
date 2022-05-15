@@ -1,5 +1,5 @@
 botao=document.querySelector('.botao-menu');
-menuChaveado=document.querySelector('.menu-horinzontal .menu');
+menuChaveado=document.querySelector('.menu');
 menuH=document.querySelector('.botao-menu')
 
 botao.addEventListener('click',function(){
