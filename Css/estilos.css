@@ -80,6 +80,7 @@ img {
 }
 
 .img2 {
+ 
     width: 30%;
     box-shadow: 0 4px 8px 1px #000;
     border-radius: 2%;
@@ -90,6 +91,7 @@ img {
 
 }
 .img3 {
+    left: 0;
     width: 30%;
     box-shadow: 0 4px 8px 1px #000;
     border-radius: 2%;
@@ -220,7 +222,6 @@ ul li {
 }
 
 p {
-
     margin: 30px 5px;
     font-size: 20px;
     margin: auto;
