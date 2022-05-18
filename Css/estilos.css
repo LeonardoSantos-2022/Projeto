@@ -429,7 +429,7 @@ footer p {
     }
 
     li{
-        line-height: 95px;
+        line-height: 105px;
         text-decoration: none;
     }
      li :hover { 
@@ -630,7 +630,7 @@ footer p {
 
                 }
                 li{
-                    line-height: 30px;
+                    line-height: 20px;
                    text-decoration: none;
                 }
                 .logo4{
