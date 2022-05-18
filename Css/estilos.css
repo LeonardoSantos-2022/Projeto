@@ -608,7 +608,10 @@ footer p {
             height: 10%;
             }
 
-
+            li{
+                line-height: 95px;
+                text-decoration: none;
+            }
                 }
     
                 @media(max-height:375px) {
