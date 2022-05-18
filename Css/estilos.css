@@ -429,7 +429,7 @@ footer p {
     }
 
     li{
-        line-height: 78px;
+        line-height: 85px;
         text-decoration: none;
     }
      li :hover { 
@@ -628,5 +628,9 @@ footer p {
                 height: 25%;
                 margin: 20px;
 
+                }
+                li{
+                    line-height: 58px;
+                   text-decoration: none;
                 }
             }
