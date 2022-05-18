@@ -429,7 +429,7 @@ footer p {
     }
 
     li{
-        line-height: 78px;
+        line-height: 58px;
         text-decoration: none;
     }
      li :hover { 
@@ -534,10 +534,6 @@ footer p {
         height: 20%;
         margin: 20px;
         }
-        li{
-            line-height: 95px;
-            text-decoration: none;
-        }
     
         }
 
@@ -608,10 +604,6 @@ footer p {
             height: 10%;
             }
 
-            li{
-                line-height: 95px;
-                text-decoration: none;
-            }
                 }
     
                 @media(max-height:375px) {
