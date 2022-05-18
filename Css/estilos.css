@@ -280,11 +280,14 @@ footer p {
     transition: 1s;
         }
     .item{
-    margin-top: 200px;
+    margin-top: 90px;
     color: #fff;
     opacity: 0.9;
     display: flex;
     flex-direction: column;
+    height: 50%;
+    width: 100%;
+  
     }
     
     .logo4{
@@ -353,11 +356,7 @@ footer p {
     color: #fff;
     z-index: 1;
     }
-    .me{
-    margin-top: -75px;
-    font-size: 20px;
-
-    }
+  
     /*menu-navegacao*/
     .menu-navegacao {
     top: 20px;
@@ -429,7 +428,7 @@ footer p {
     }
 
     li{
-        line-height: 105px;
+        line-height: 95px;
         text-decoration: none;
     }
      li :hover { 
@@ -589,13 +588,7 @@ footer p {
             margin: 20px;
 
             }
-            .item {
-            top: 0;
-            opacity: 1;
-            display: flex;
-            flex-direction: column;
-                margin-top: 210;
-            }
+            
             .img5{
             border-radius: 50%;
             position: fixed;
@@ -629,12 +622,13 @@ footer p {
                 margin: 20px;
 
                 }
-                li{
-                    line-height: 20px;
-                   text-decoration: none;
+               
+                .item  {
+                    width: 100%;
+                    height: 100%;
+                    overflow-x: scroll;
                 }
-                .logo4{
-                    height: 10%;
-                    width: 10%;
-                }
+                
+                
+                
             }
