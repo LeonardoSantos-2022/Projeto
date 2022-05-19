@@ -14,8 +14,7 @@ body {
     width: 100%;
     position: fixed;
     z-index: 99;
-    border-bottom: 5px solid rgb(54, 54, 54)
-    
+    border-bottom: 5px solid rgb(54, 54, 54);
 }
 
 /* canais */
@@ -144,7 +143,7 @@ padding: 10px;
    
 }
 .conteudo3{
-    margin-top: 100px;
+    margin-top: 110px;
     text-align: center;
     background: linear-gradient(#fff, rgb(212, 210, 210));
    
@@ -155,7 +154,7 @@ padding: 10px;
 
 .conteudo {
     text-align: center;
-    margin-top: 87px;
+    margin-top: 110px;
     background: linear-gradient(#fff, rgb(212, 210, 210));
     box-shadow: 0 8px 3px 4px #000;
 }
@@ -168,12 +167,14 @@ padding: 10px;
     margin: 0;
     text-decoration: none;
     color: #fff;}
+   
 .menu-navegacao li {
+ padding: 4px;
     text-decoration: none;}
 
 .menu-navegacao li a {
     color: #fff;
-    margin: 0 10px;
+    margin: 0 ;
     text-decoration: none;}
 
 
@@ -251,7 +252,11 @@ footer p {
 .item li :hover{
     list-style: none;
 }
-
+i{ margin: 15px;
+    font-size:20px;
+    color: #fff;
+    z-index: 1;
+    }
 @media (max-width:992px) {
     /* menu */
     .item li {
@@ -259,39 +264,47 @@ footer p {
     }
     .menu-horinzontal li a {
     color: #fff;
-    font-size: 250x;
+    font-size: 25px;
     right: 20%;
-    }
     
-    .menu{
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    background-image: url(../img/bg.jpg);
-    left: 0;
-    position: fixed;
-    transition:1s ;
-    z-index: 1;
-    opacity: 0.9;
+    }
 
-    }  
-    .menu-active {
-    left: -100%;
-    transition: 1s;
+    .menu-horinzontal{
+        position: fixed;
+        top: 110px;
+        height: 100%;
+        width: 100%;
+        transition:1s ;
+        opacity: 0.9;
+        z-index: 1;
+        left: 0;
+        background-image: url(../img/bg.jpg);
+    }
+ 
+
+    .menu--item2 {
+    position: absolute;
         }
+        
+    .menu-active{
+      left:-100%;
+    transition: 1s;
+}
+      
+
     .item{
-    margin-top: 90px;
     color: #fff;
     opacity: 0.9;
     display: flex;
     flex-direction: column;
-    height: 50%;
+    height: 100%;
     width: 100%;
+    margin: 30px 0;
   
     }
     
     .logo4{
-        width: 27%;
+        width: 117px;
         margin-top: 170;
         border-radius: 50%;
         margin: 0 auto;
@@ -369,8 +382,11 @@ footer p {
     margin-top: 22px;
     display: none;
     }
-
-    /*menu hamburguer*/
+.menu{
+    width: 100%;
+    height: 100%;
+}
+    /* botao menu hamburguer*/
 
     .botao-menu {
     align-items: center;
@@ -427,8 +443,8 @@ footer p {
 
     }
 
-    li{
-        line-height: 95px;
+    .linhas{
+        line-height: 85px;
         text-decoration: none;
     }
      li :hover { 
@@ -459,10 +475,7 @@ footer p {
         }
 
         .conteudo {
-        margin-top: 89px;
-        }
-        .conteudo3 {
-        margin-top: 93px;
+        margin-top: 110px;
         }
 
         video {
@@ -552,7 +565,7 @@ footer p {
             display: none;   
             }
             .conteudo{
-            margin-top: 100px;
+            margin-top: 110px;
             }
             .video{
             width: 190px;
@@ -606,10 +619,10 @@ footer p {
                 color: #fff;
                 z-index: 1;}
                 .conteudo{
-                margin-top: 89px;
+                margin-top:110px;
                 }
                 .conteudo3{
-                margin-top: 89px;
+                margin-top: 110px;
 
                 }
                 .img4 {
@@ -622,13 +635,15 @@ footer p {
                 margin: 20px;
 
                 }
-               
-                .item  {
-                    width: 100%;
-                    height: 100%;
+
+               .linhas{
+                   line-height: 75px;
+    
+               }
+                .menu-horinzontal{
+                 height:70%;
                     overflow-x: scroll;
                 }
-                
-                
+           
                 
             }
