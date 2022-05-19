@@ -382,10 +382,7 @@ i{ margin: 15px;
     margin-top: 22px;
     display: none;
     }
-.menu{
-    width: 100%;
-    height: 100%;
-}
+
     /* botao menu hamburguer*/
 
     .botao-menu {
@@ -444,7 +441,7 @@ i{ margin: 15px;
     }
 
     .linhas{
-        line-height: 85px;
+        line-height: 75px;
         text-decoration: none;
     }
      li :hover { 
@@ -637,13 +634,16 @@ i{ margin: 15px;
                 }
 
                .linhas{
-                   line-height: 45px;
+                   line-height: 35px;
     
                }
                 .menu-horinzontal{
-                 height:70%;
+                    height:70%;
                     overflow-x: scroll;
                 }
-           
                 
+                .menu{
+                    width: 100%;
+                    height: 100%;
+                }
             }
