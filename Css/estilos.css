@@ -685,6 +685,14 @@ i{ margin: 15px;
                 .li {
                     font-size: 1px;
                 }
+                h1{
+                
+                    display: block; 
+                    font-size: 15px; 
+                    font-family: Arial, Helvetica, sans-serif;
+        
+                    }
+                    
                 @media(min-height:393px) {
                     .menu-horinzontal{
             
