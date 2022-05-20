@@ -169,7 +169,7 @@ padding: 10px;
     color: #fff;}
    
 .menu-navegacao li {
- padding: 4px;
+    padding: 4px;
     text-decoration: none;}
 
 .menu-navegacao li a {
@@ -235,6 +235,7 @@ p {
 }
 
 .rodapé {
+    border-top: 5px solid rgb(54, 54, 54);
     background-image: url(../img/bg.jpg);
     text-align: center;
     color: #fff;
