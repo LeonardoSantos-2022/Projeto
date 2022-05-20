@@ -672,7 +672,7 @@ i{ margin: 15px;
                     height: 35%;
                 }
                 .logo2{
-                    width: 10%;
+                    width: 17%;
                     height: 15%;
                 }
                 .item{
@@ -696,7 +696,6 @@ i{ margin: 15px;
 
                 @media(min-height:393px) {
                     .menu-horinzontal{
-            
                         height:70%;
                         overflow-x: scroll;
                     }
