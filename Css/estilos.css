@@ -15,6 +15,7 @@ body {
     position: fixed;
     z-index: 99;
     border-bottom: 5px solid rgb(54, 54, 54);
+    box-shadow: 0 1px 10px 1px #000;
 }
 
 /* canais */
@@ -235,6 +236,7 @@ p {
 }
 
 .rodapé {
+    box-shadow: 0 1px 10px 1px #000;
     border-top: 5px solid rgb(54, 54, 54);
     background-image: url(../img/bg.jpg);
     text-align: center;
