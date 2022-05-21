@@ -280,7 +280,10 @@ i{ margin: 15px;
         z-index: 1;
         left: 0;
         background-image: url(../img/bg.jpg);
-    }
+        border-right: 2px solid rgb(68, 68, 68);
+        box-shadow: 0 1px 15px 1px #000;
+        
+        }
  
 
     .menu--item2 {
