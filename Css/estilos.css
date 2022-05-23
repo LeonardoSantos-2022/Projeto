@@ -16,6 +16,7 @@ body {
     z-index: 99;
     border-bottom: 5px solid rgb(54, 54, 54);
     box-shadow: 0 1px 10px 1px #000;
+
 }
 
 /* canais */
@@ -146,7 +147,7 @@ padding: 10px;
 .conteudo3{
     margin-top: 140px;
     text-align: center;
-    background: linear-gradient(#fff, rgb(212, 210, 210));
+    background: linear-gradient(#fff, rgb(180, 179, 179));
     box-shadow: 0 8px 3px 4px #000;
 }
 .conteudo p {
@@ -156,7 +157,7 @@ padding: 10px;
 .conteudo {
     text-align: center;
     margin-top: 140px;
-    background: linear-gradient(#fff, rgb(212, 210, 210));
+ background: linear-gradient(#fff,rgb(197, 197, 197));
     box-shadow: 0 8px 3px 4px #000;
 }
 
@@ -263,7 +264,10 @@ i{ margin: 15px;
 @media (max-width:992px) {
     /* menu */
     .item li {
-    text-align: center;
+    left: 110px;
+    }
+    .li{
+        text-align: center;
     }
     .menu-horinzontal li a {
     color: #fff;
@@ -296,6 +300,7 @@ i{ margin: 15px;
 }
      
 .menu{
+    margin-left: 0 20px;
     margin-top: 20px;
 }
 
@@ -307,7 +312,7 @@ i{ margin: 15px;
     height: 100%;
     width: 100%;
     margin: 30px 0;
-  
+
     }
     
     .logo4{
@@ -503,7 +508,6 @@ i{ margin: 15px;
         }
 
         h2 {
-    
         margin-top: 10px;
         font-size: 2.1em;
         margin-bottom: 2px;
@@ -564,7 +568,8 @@ i{ margin: 15px;
             .linhas{
                 line-height: 100px;
                 text-decoration: none;
-                }
+            }
+        
         }
 
         @media(max-width:320px) {
@@ -663,7 +668,7 @@ i{ margin: 15px;
                 }
 
                .linhas{
-                   line-height: 35px;
+                   line-height: 95px;
     
                }
                 .menu-horinzontal{
