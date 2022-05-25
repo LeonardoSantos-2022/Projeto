@@ -459,15 +459,15 @@ i{ margin: 15px;
         line-height: 75px;
         text-decoration: none;
     }
-     li:hover { 
+     .menu-horinzontal li :hover { 
         text-decoration: none;
         cursor: pointer;
         background:rgb(104, 103, 103) ;
         transition: 0.5s;
         }
-        .botao-menu:hover {
+        .botao-menu:hover .line {
             cursor: pointer;
-            background:rgb(104, 103, 103);
+            background:rgb(170, 170, 170) ;
             transition: 0.5s;
     
         }
