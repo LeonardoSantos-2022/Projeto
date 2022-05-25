@@ -178,7 +178,11 @@ padding: 10px;
     margin: 0 ;
     text-decoration: none;
 }
-
+.menu-navegacao li  :hover{
+cursor: pointer;
+background:rgb(104, 103, 103) ;
+transition: 0.5s;
+}
 ul li {
     list-style: none;
     font-size: 18px;
@@ -455,10 +459,22 @@ i{ margin: 15px;
         line-height: 75px;
         text-decoration: none;
     }
-     li :hover { 
+     li:hover { 
         text-decoration: none;
         cursor: pointer;
+        background:rgb(104, 103, 103) ;
+        transition: 0.5s;
         }
+        .botao-menu:hover {
+            cursor: pointer;
+            background:rgb(104, 103, 103);
+            transition: 0.5s;
+    
+        }
+        .li :hover{
+            text-decoration: none;
+        }
+        
 }
     @media(max-width:414px) {
         .menu-horinzontal li a {
