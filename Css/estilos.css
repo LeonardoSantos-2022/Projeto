@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 12px;
+    font-size: 14px;
     background: linear-gradient(#fff,rgb(168, 168, 168) );
    
    
@@ -183,6 +183,7 @@ padding: 10px;
 cursor: pointer;
 background:rgb(104, 103, 103) ;
 transition: 0.5s;
+border-radius: 50px;
 }
 ul li {
     list-style: none;
@@ -190,7 +191,7 @@ ul li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.item {
+.items{
     display: none;
 
 }
@@ -275,7 +276,9 @@ i{ margin: 15px;
     }
     .menu-horinzontal li a {
     color: #fff;
-    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     right: 20%;
     }
     .menu-horinzontal{
@@ -300,27 +303,33 @@ i{ margin: 15px;
         
     .menu-active{
       left:-100%;
-    transition: 1s;
-}
+      transition: 1s;
+    }
      
     .menu{
     margin-left: 0 20px;
     margin-top: 20px;
-}
+    }
 
-    .item{
+    .items{
     color: #fff;
     opacity: 0.9;
     display: flex;
- flex-direction:column;
-    height: 100%;
+    flex-direction:column;
+    height: 35em;
     width: 100%;
-    margin: 30px 0;
+    margin-top: 29px ;
+    align-items: center;
+    overflow-y: scroll ;
+    
+    }
 
+    .items::-webkit-scrollbar{
+    display: none;
     }
     
     .logo4{
-        width: 117px;
+        width: 57px;
         margin-top: 170;
         border-radius: 50%;
         margin: 0 auto;
@@ -380,16 +389,14 @@ i{ margin: 15px;
     z-index: 1  
     }
 
-    i{ margin: 1px;
-    font-size:20px;
-    color: #fff;
-    z-index: 1;
+    i{
+    display: none;
     }
+    
   
     /*menu-navegacao*/
     .menu-navegacao {
     top: 20px;
-    font-size: 95%x;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
     display: inline-block;
@@ -457,14 +464,23 @@ i{ margin: 15px;
     }
 
     .linhas{
-        line-height: 75px;
+       text-align: center;
+        width: 55%;
+        line-height: 65px;
         text-decoration: none;
+        font-weight: bolder;
+        font-size:3em ;
+        padding: 15px 0;
+       
+
+        
     }
      .menu-horinzontal li :hover { 
         text-decoration: none;
         cursor: pointer;
         background:rgb(104, 103, 103) ;
         transition: 0.5s;
+        border-radius: 50px;
         }
         .botao-menu:hover .line {
             cursor: pointer;
@@ -575,8 +591,7 @@ i{ margin: 15px;
             font-family: Arial, Helvetica, sans-serif;
 
             }
-            .item{
-                height: 210px;
+            .items{
               margin-top: -5px;
         
             }
@@ -667,7 +682,7 @@ i{ margin: 15px;
                 @media(max-height:375px) {
                 .menu-horinzontal li i{
                 margin: 1%;
-                font-size: 1.2em;
+                font-size: 1em;
                 color: #fff;
                 z-index: 1;}
                 .conteudo{
@@ -689,7 +704,8 @@ i{ margin: 15px;
                 }
 
                .linhas{
-                   line-height: 95px;
+                   font-size: 25px;
+                   line-height: 75px;
     
                }
                 .menu-horinzontal{
@@ -711,8 +727,8 @@ i{ margin: 15px;
                     width: 17%;
                     height: 15%;
                 }
-                .item{
-                    height: 210px;
+                .items{
+                    height: 250px;
                   margin-top: -5px;
                 }
                 .cabecario{
@@ -738,12 +754,12 @@ i{ margin: 15px;
                         height:70%;
                         overflow-x: scroll;
                     }
-                    .item{
-                        height: 210px;
+                    .items{
+                        height: 110px;
 
                     }
                     .linhas{
-                        line-height: 5px;
+                        line-height: 55px;
          
                     }
 
