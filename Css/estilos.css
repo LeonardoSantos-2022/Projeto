@@ -663,14 +663,12 @@ i{ margin: 15px;
                     padding: 0;
                 }
             }
-        @media(max-width:280px) {
+        @media(max-width:333px) {
             h1{
                 display: none; 
     
                 }
-                .logo2{
-                    margin-left: 89px;
-                }
+            
                 i{ display: none;
                     }
                     .menu-horinzontal li a{
