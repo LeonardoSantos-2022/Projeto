@@ -51,8 +51,6 @@
 
 .jlplayer-video {
     position: relative;
-    width: 100%;
-    height: 100%;
     margin: 0 auto;
     min-width: 180px;
     height: 0;

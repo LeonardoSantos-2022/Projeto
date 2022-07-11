@@ -259,6 +259,10 @@ i{ margin: 15px;
     color: #fff;
     z-index: 1;
     }
+    .jlplayer-video{
+        width: 50%;
+        height: 50%;
+    }
 @media (max-width:992px) {
     /* menu */
     .item li {
@@ -480,6 +484,10 @@ i{ margin: 15px;
         }
         .li :hover{
             text-decoration: none;
+        }
+        .jlplayer-video{
+            width: 100%;
+            height: 100%;
         }
         
 }
