@@ -1,12 +1,8 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
     margin: 0;
     padding: 0;
-    font-size: 14px;
-    background: linear-gradient(#fff,rgb(168, 168, 168) );
-   
-   
- 
+    background-image: linear-gradient(#fff,rgb(172, 170, 170));
 }
 
 /* cabecario */
@@ -223,6 +219,7 @@ ul li {
 }
 
 p {
+    font-family: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,900&display=swap');
     margin: 30px 5px;
     font-size: 20px;
     margin: auto;
@@ -263,6 +260,7 @@ i{ margin: 15px;
         width: 50%;
         height: 50%;
     }
+
 @media (max-width:992px) {
     /* menu */
     .item li {
@@ -479,9 +477,7 @@ i{ margin: 15px;
         }
         .botao-menu:hover .line {
             cursor: pointer;
-       
-    
-        }
+       }
         .li :hover{
             text-decoration: none;
         }
