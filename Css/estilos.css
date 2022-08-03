@@ -280,7 +280,7 @@ i{ margin: 15px;
         height: 100%;
         width: 100%;
         transition:1s ;
-        z-index: 2;
+        z-index: 99;
         left: 0;
         background-color: black;
         border-right: 5px solid rgb(68, 68, 68);
