@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
     margin: 0;
