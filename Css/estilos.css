@@ -28,6 +28,74 @@ body {
     color: #000;
 }
 
+.botao-wats a{
+    background-color: green;
+    top: 330px;
+    border-radius: 75%;
+    position: fixed;
+    z-index: 1;
+    right:3px;
+    right: 20px;
+    display: flex;
+   align-items: center;
+   padding: 0 15px;
+ 
+}
+#ws{
+    
+    font-size: 3.1em;
+}
+.logo5{
+    width: 25%;
+    margin-top: 170;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.botao-fece a{
+    background-color: blue;
+    top: 500px;
+    border-radius: 70%;
+    position: fixed;
+    z-index: 1;
+   right:3px;
+   right: 20px;
+   display: flex;
+   align-items: center;
+   padding: 0 15px;
+}
+#fe{
+    font-size: 3.1em;
+}
+.logo5{
+    width: 25%;
+    margin-top: 170;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.botao-inst a{
+    background: rgb(131,58,180);
+    background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    top: 160px;
+    border-radius: 70%;
+    position: fixed;
+    z-index: 1;
+   right: 20px;
+   display: flex;
+   align-items: center;
+   padding: 0 15px;
+}
+#is{
+    
+    font-size: 3.5em;
+}
+.logo5{
+    width: 25%;
+    margin-top: 170;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 
 .container-logo {
     align-items: center;
@@ -113,6 +181,9 @@ img {
     margin: 20px;
 
 }
+
+
+
 
 
 .imagens {
@@ -278,6 +349,10 @@ i{ margin: 15px;
     justify-content: center;
     right: 20%;
     }
+    
+    
+    
+
     .menu-horinzontal{
         position: fixed;
         top: 110px;
@@ -376,6 +451,7 @@ i{ margin: 15px;
     position: fixed;
 
     }
+    
 
     .img6{
     width: 10px;
@@ -746,5 +822,74 @@ i{ margin: 15px;
          
                     }
 
+ .botao-wats a{
+                background-color: green;
+                top: 330px;
+                border-radius: 75%;
+                position: fixed;
+                z-index: 1;
+                right:3px;
+                right: 50px;
+                display: flex;
+               align-items: center;
+               padding: 0 15px;
+             
+            }
+            #ws{
+                
+                font-size: 1.1em;
+            }
+            .logo5{
+                width: 25%;
+                margin-top: 170;
+                border-radius: 50%;
+                margin: 0 auto;
+            }
+            
+            .botao-fece a{
+                background-color: blue;
+                top: 500px;
+                border-radius: 70%;
+                position: fixed;
+                z-index: 1;
+               right:3px;
+               right: 20px;
+               display: flex;
+               align-items: center;
+               padding: 0 15px;
+            }
+            #fe{
+                font-size: 1.1em;
+            }
+            .logo5{
+                width: 25%;
+                margin-top: 170;
+                border-radius: 50%;
+                margin: 0 auto;
+            }
+            
+            .botao-inst a{
+                background: rgb(131,58,180);
+                background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+                top: 160px;
+                border-radius: 70%;
+                position: fixed;
+                z-index: 1;
+               right: 20px;
+               display: flex;
+               align-items: center;
+               padding: 0 15px;
+            }
+            #is{
+                
+                font-size: 1.5em;
+            }
+            .logo5{
+                width: 25%;
+                margin-top: 170;
+                border-radius: 50%;
+                margin: 0 auto;
+            }
                 }
             }
+       
