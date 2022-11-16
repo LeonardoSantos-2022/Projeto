@@ -334,7 +334,7 @@ i{ margin: 15px;
         height: 320px;
     }
 
-@media (max-width:992px) {
+@media (max-width:992px){
     /* menu */
     .item li {
     left: 110px;
@@ -351,8 +351,7 @@ i{ margin: 15px;
     }
     
     
-    
-
+   
     .menu-horinzontal{
         position: fixed;
         top: 110px;
@@ -562,6 +561,8 @@ i{ margin: 15px;
         .li :hover{
             text-decoration: none;
         }
+
+
 }
     @media(max-width:414px) {
         .menu-horinzontal li a {
@@ -660,7 +661,9 @@ i{ margin: 15px;
             }
         
         }
-
+        
+        
+            /* menu */
         @media(max-width:320px) {
             .menu-horinzontal li i{
               margin: 1%;
@@ -820,76 +823,6 @@ i{ margin: 15px;
                     .linhas{
                         line-height: 55px;
          
-                    }
-
- .botao-wats a{
-                background-color: green;
-                top: 330px;
-                border-radius: 75%;
-                position: fixed;
-                z-index: 1;
-                right:3px;
-                right: 50px;
-                display: flex;
-               align-items: center;
-               padding: 0 15px;
-             
-            }
-            #ws{
-                
-                font-size: 1.1em;
-            }
-            .logo5{
-                width: 25%;
-                margin-top: 170;
-                border-radius: 50%;
-                margin: 0 auto;
-            }
-            
-            .botao-fece a{
-                background-color: blue;
-                top: 500px;
-                border-radius: 70%;
-                position: fixed;
-                z-index: 1;
-               right:3px;
-               right: 20px;
-               display: flex;
-               align-items: center;
-               padding: 0 15px;
-            }
-            #fe{
-                font-size: 1.1em;
-            }
-            .logo5{
-                width: 25%;
-                margin-top: 170;
-                border-radius: 50%;
-                margin: 0 auto;
-            }
-            
-            .botao-inst a{
-                background: rgb(131,58,180);
-                background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-                top: 160px;
-                border-radius: 70%;
-                position: fixed;
-                z-index: 1;
-               right: 20px;
-               display: flex;
-               align-items: center;
-               padding: 0 15px;
-            }
-            #is{
-                
-                font-size: 1.5em;
-            }
-            .logo5{
-                width: 25%;
-                margin-top: 170;
-                border-radius: 50%;
-                margin: 0 auto;
-            }
-                }
+                    }}
             }
        
