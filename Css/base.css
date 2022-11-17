@@ -1,0 +1,36 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#fff,rgb(172, 170, 170));
+}
+
+p {
+    font-family: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,900&display=swap');
+    margin: 30px 5px;
+    font-size: 20px;
+    margin: auto;
+}
+
+/* rodape  */
+.rodapé {
+    box-shadow: 0 1px 10px 1px #000;
+    border-top: 5px solid rgb(54, 54, 54);
+    background-color: black;
+    text-align: center;
+    color: #fff;
+}
+
+.rodapé p {
+    margin: 0;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+
+}
