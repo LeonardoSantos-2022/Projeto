@@ -437,7 +437,8 @@ i{ margin: 15px;
                         background-color:rgb(18,140,126);
                         font-size: 1.2em;
                         left: 20;
-                        top: 21px;
+                        top: 210px;
+                        display: block;
                         }
 
             }
