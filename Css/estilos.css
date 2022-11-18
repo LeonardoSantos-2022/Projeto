@@ -16,7 +16,7 @@
 border-radius: 50%;
 position: fixed;
 z-index: 1;
-right: 20px;
+right: 120px;
 align-items: center;
 padding: 0 5px;
 text-decoration:none ;
@@ -24,11 +24,11 @@ text-decoration:none ;
 }
 
 .botao-wats a{
-    background-color: green;
+    background-color:rgb(18 140 126);
     top: 360px;
 }
 .botao-fece a{
-    background-color: blue;
+    background-color:rgb(66,103,178);
     top: 450px;
 }
 .botao-inst a{
@@ -38,7 +38,7 @@ text-decoration:none ;
 }
 
 .botao-dis a{
-    background: rgb(131,58,180);
+    background: rgb(114,137,218);
     top: 270px;
 
 }
@@ -48,7 +48,7 @@ text-decoration:none ;
     border-radius: 50%;
     position: fixed;
     padding: 0 5px;
-    background-color: green;
+    background-color:rgb(18, 140,126);
     font-size: 1.5em;
     left: 20;
     top: 320px;
@@ -80,17 +80,17 @@ text-decoration:none ;
         top: 190px;
     }
     .botao-wats a{
-        background-color: green;
+        background-color:rgb(18,140,126);
         top: 360px;
      
     }
     
     .botao-fece a{
-        background-color: blue;
+        background-color:rgb(66,103,178);
         top: 450;
     }
     .botao-dis a{
-        background: rgb(131,58,180);
+        background: rgb(114,137,218);
         top: 270px;}
 
     }
@@ -104,7 +104,7 @@ text-decoration:none ;
         border-radius: 50%;
         position: fixed;
         padding: 0 2px;
-        background-color: green;
+        background-color:rgb(18 140 126);
         font-size: 1.2em;
         left: 20;
         top: 320px;
@@ -396,21 +396,21 @@ i{ margin: 15px;
                         top: 100px;
                     }
                     .botao-wats a{
-                        background-color: green;
+                        background-color:rgb(18 140 126);
                         top: 235px;
                      
                     }
                     .botao-dis a{
-                        background: rgb(131,58,180);
+                        background: rgb(114,137,218);
                         top: 170px;}
 
                     .botao-wats a{
-                        background-color: green;
+                        background-color:rgb(18 140 126);
                         top: 235px;
                      
                     }
                     .botao-fece a{
-                        background-color:blue;
+                        background-color:rgb(66,103,178);
                         top: 305px;
                      
                     }
@@ -423,7 +423,7 @@ i{ margin: 15px;
                         border-radius: 55%;
                         position: fixed;
                         z-index: 1;
-                       right: 20px;
+                       right: 69px;
                        display: flex;
                        align-items: center;
                        padding: 0;
@@ -434,10 +434,10 @@ i{ margin: 15px;
                         border-radius: 50%;
                         position: fixed;
                         padding: 0 2px;
-                        background-color: green;
+                        background-color:rgb(18,140,126);
                         font-size: 1.2em;
                         left: 20;
-                        top: 225px;
+                        top: 21px;
                         }
 
             }
