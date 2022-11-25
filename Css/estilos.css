@@ -18,7 +18,7 @@ position: fixed;
 z-index: 1;
 right: 120px;
 align-items: center;
-padding: 0 5px;
+padding: 0 1px;
 text-decoration:none ;
 
 }
@@ -47,7 +47,7 @@ text-decoration:none ;
     .logo-wats{
     border-radius: 50%;
     position: fixed;
-    padding: 0 5px;
+    padding: 0 1px;
     background-color:rgb(18, 140,126);
     font-size: 1.5em;
     left: 20;
@@ -433,7 +433,7 @@ i{ margin: 15px;
                     .logo-wats{
                         border-radius: 50%;
                         position: fixed;
-                        padding: 0 2px;
+                        padding: 0 1px;
                         background-color:rgb(18,140,126);
                         font-size: 1.2em;
                         left: 20;
