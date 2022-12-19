@@ -381,7 +381,7 @@ i{ margin: 15px;
                 @media(min-height:393px) {
                     .menu-horinzontal{
                         height:70%;
-                        overflow-x: scroll;
+                        overflow-y: scroll;
                     }
                     
                     .items{
