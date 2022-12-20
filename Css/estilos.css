@@ -119,10 +119,13 @@ h1 {
     display: flex;
     color: #fff;
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
     margin: 0 10px;
+    display: block; 
+    font-family: "Audiowide", sans-serif;
+    font-weight: bolder;
+    }
 
-}
 h2 {
     text-align: center;
     margin-top: 10px;
@@ -213,6 +216,7 @@ top: 0;
 /* logos */
 .logo {
     border-radius: 50%;
+    background-color: blue
 }
 .logo2 {
     border-radius: 50%;
@@ -269,8 +273,10 @@ top: 0;
 
 /* menus ul li item*/
 ul li {
+    font-size: 14px;
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Audiowide", sans-serif;
+    font-weight: bolder;
 }
 
 .items{
@@ -341,7 +347,8 @@ i{ margin: 15px;
                 h1{
                     display: block; 
                     font-size: 15px; 
-                    font-family: Arial, Helvetica, sans-serif;
+                    font-family: "Audiowide", sans-serif;
+                    font-weight: bolder;
         
                     }
                     .container--menu{
