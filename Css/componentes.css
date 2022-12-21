@@ -82,6 +82,8 @@
     text-decoration: none;
 }
 .menu-navegacao li :hover{
+background-color: rgb(119, 119, 119);
+transition: all 1.0s;
 cursor: pointer;
 }
 .menu-horinzontal{
@@ -104,7 +106,10 @@ cursor: pointer;
     right: 20%;
     }
 
-    
+    .menu-navegacao li :hover{
+        cursor: pointer;}
+
+        
     .menu-horinzontal{
         position: fixed;
         top: 110px;
@@ -268,6 +273,7 @@ img {
         justify-content: center;
         align-items: center;
         width: 100%;
+        
         }
     
     }
@@ -323,6 +329,7 @@ img {
         cursor: pointer;
         transition: 0.5s;
         border-radius: 50px;
+    
         }
         .botao-menu:hover .line {
             cursor: pointer;
