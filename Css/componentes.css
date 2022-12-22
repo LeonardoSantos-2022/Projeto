@@ -85,6 +85,8 @@
 background-color: rgb(119, 119, 119);
 transition: all 1.0s;
 cursor: pointer;
+border-radius: 15%;
+padding: 4px;
 }
 .menu-horinzontal{
     display: none;
