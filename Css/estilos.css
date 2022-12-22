@@ -15,7 +15,7 @@
 .botao-wats a,.botao-fece a,.botao-inst a ,.botao-dis a{
 border-radius: 50%;
 position: fixed;
-right: 120px;
+right: 201px;
 align-items: center;
 padding: 0 1px;
 text-decoration:none ;
@@ -52,7 +52,9 @@ text-decoration:none ;
     top: 320px;
 
     }
-
+a>li:hover{
+    text-decoration: none;
+}
    
 
 
