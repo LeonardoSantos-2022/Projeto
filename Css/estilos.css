@@ -52,11 +52,6 @@ text-decoration:none ;
     top: 320px;
 
     }
-a>li:hover{
-    text-decoration: none;
-}
-   
-
 
 @media screen and ( max-width:992px) {
     .botao-wats a,.botao-fece a,.botao-inst a,.botao-dis a {

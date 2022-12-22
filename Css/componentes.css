@@ -1,5 +1,10 @@
 
 /* cabecario */
+.canais ~ a{
+    border: none;
+    list-style: none;
+    text-decoration:none ;
+}
 .cabecario {
     top: 0;
     background-color: black;
@@ -11,17 +16,24 @@
 
 }
 
-/* video*/
+/* canais*/
 
 .canais li {
+    padding: 5px 4px; 
     text-decoration: none;
+    height: 25px;
+    width: 100%;
     list-style: none;
     color: #000;
+  
 }
 
-.canais>li :hover {
-    font-size: 20px;
+.canais > li a:hover {
+    border: none;
     text-decoration: none;
+    transition: all 1.2s;
+    font-size: 16px;
+    margin: 0;
 }
 
 .img {
@@ -38,22 +50,12 @@
     list-style: none;
     color: #000;
 }
-
-.canais>li :hover {
-    font-size: 20px;
-    text-decoration: none;
-}
-
 .canais li {
     text-decoration: none;
     list-style: none;
     color: #000;
 }
 
-.canais>li :hover {
-    font-size: 20px;
-    text-decoration: none;
-}
 
 /*menu*/
 .menu--item  {
