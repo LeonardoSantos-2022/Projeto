@@ -31,7 +31,7 @@
 .canais > li a:hover {
     border: none;
     text-decoration: none;
-    transition: all 1.2s;
+    transition: all .5s;
     font-size: 16px;
     margin: 0;
 }
