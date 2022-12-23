@@ -276,8 +276,21 @@ ul li {
     list-style: none;
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
+    cursor: pointer;
 }
-
+.men>li{
+    font-size: 14px;
+    list-style: none;
+    font-family: "Audiowide", sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 100%;
+    height: 20px;  
+}
+.men > li:hover{
+font-size: 16px;
+transition: all .5s;
+}
 .items{
     display: none;}
 
