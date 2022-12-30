@@ -2,6 +2,7 @@
 .canais li a {
     text-decoration: none;
     list-style: none;
+    line-height: 20px;
     color: #000;
 }
 
@@ -289,6 +290,7 @@ ul li {
 }
 .men > li:hover{
 font-size: 16px;
+line-height: 20px;
 transition: all .5s;
 }
 .items{
@@ -336,6 +338,9 @@ i{ margin: 15px;
                     height:80%;
                     overflow-x: scroll;
                 }
+                .menu-horizontal{
+                    top: 90px;
+                }
                 
                 .menu{
                     width: 100%;
@@ -349,10 +354,10 @@ i{ margin: 15px;
                 }
                 .items{
                     height: 250px;
-                  margin-top: -5px;
+                  margin-top: -4px;
                 }
                 .cabecario{
-                    height: 85px;
+                    height: 95px;
                 }
                 .li {
                     
@@ -436,7 +441,7 @@ i{ margin: 15px;
                      
                     }
                     #ws,#is,#fe,#dis{
-                        font-size: 0.9em;
+                        font-size:   1.3em;
                         display: flex;
                       
                     }
@@ -456,7 +461,7 @@ i{ margin: 15px;
                         position: fixed;
                         padding: 0 1px;
                         background-color:rgb(18,140,126);
-                        font-size: 1.2em;
+                        font-size: 1.3em;
                         left: 20;
                         top: 210px;
                         display: block;
