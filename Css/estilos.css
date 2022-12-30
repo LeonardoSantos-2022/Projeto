@@ -327,18 +327,18 @@ i{ margin: 15px;
             
         @media(max-height:375px) {
             /* menu */
-                .menu-horinzontal li i{
+                .menu-mobile li i{
                 margin: 1%;
                 font-size: 1em;
                 color: #fff;
                 z-index: 1;}
 
-                .menu-horinzontal{
+                .menu-mobile{
                     top: 85px;
                     height:80%;
                     overflow-x: scroll;
                 }
-                .menu-horizontal{
+                .menu-mobile{
                     top: 90px;
                 }
                 
@@ -405,7 +405,7 @@ i{ margin: 15px;
                
 
                 @media(min-height:393px) {
-                    .menu-horinzontal{
+                    .menu-mobile{
                         height:70%;
                         overflow-y: scroll;
                     }
