@@ -28,6 +28,7 @@ text-decoration:none ;
 }
 .botao-fece a{
     background-color:rgb(66,103,178);
+
     top: 450px;
 }
 .botao-inst a{
@@ -43,16 +44,17 @@ text-decoration:none ;
 }
 
 
-    .logo-wats{
-    border-radius: 50%;
-    position: fixed;
-    padding: 0 1px;
-    background-color:rgb(18, 140,126);
-    font-size: 1.5em;
-    left: 20;
-    top: 320px;
+.logo-wats{
+border-radius: 50%;
+position: fixed;
+padding: 0 1px;
+background-color:rgb(18, 140,126);
+box-shadow: 2px solid rgb(18, 140,126);
+font-size: 1.5em;
+left: 20;
+top: 320px;
 
-    }
+}
 
 @media screen and ( max-width:992px) {
     .botao-wats a,.botao-fece a,.botao-inst a,.botao-dis a {
@@ -73,22 +75,22 @@ text-decoration:none ;
     }
 
     .botao-inst a{
-        background: rgb(131,58,180);
-        background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+        background:radial-gradient(circle #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
         top: 190px;
     }
     .botao-wats a{
-        background-color:rgb(18,140,126);
+        background:radial-gradient( rgb(18 140 126) 45% ,rgb(18 140 126) 50% );
         top: 360px;
      
     }
     
     .botao-fece a{
-        background-color:rgb(66,103,178);
+ background:radial-gradient( rgb(66,103,178) 45% ,rgb(66,103,178) 50% );
         top: 450;
     }
     .botao-dis a{
-        background: rgb(114,137,218);
+        background:radial-gradient( rgb(114,137,218) 45% ,rgb(114,137,218) 50%);
         top: 270px;}
 
     }
@@ -102,7 +104,7 @@ text-decoration:none ;
         border-radius: 50%;
         position: fixed;
         padding: 0 2px;
-        background-color:rgb(18 140 126);
+        background:radial-gradient( rgb(18 140 126) 45% ,rgb(18 140 126) 50%);
         font-size: 1.2em;
         left: 20;
         top: 320px;
@@ -118,7 +120,7 @@ h1 {
     display: flex;
     color: #fff;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0 10px;
     display: block; 
     font-family: "Audiowide", sans-serif;
