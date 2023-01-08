@@ -16,7 +16,7 @@
 .botao-wats a,.botao-fece a,.botao-inst a ,.botao-dis a{
 border-radius: 50%;
 position: fixed;
-right: 120px;
+right: 125px;
 align-items: center;
 padding: 0 1px;
 text-decoration:none ;
@@ -28,7 +28,6 @@ text-decoration:none ;
 }
 .botao-fece a{
     background-color:rgb(66,103,178);
-
     top: 450px;
 }
 
