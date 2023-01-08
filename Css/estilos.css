@@ -31,10 +31,13 @@ text-decoration:none ;
 
     top: 450px;
 }
+
+
 .botao-inst a{
     background: rgb(131,58,180);
     background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     top: 170px;
+    
 }
 
 .botao-dis a{
@@ -42,7 +45,17 @@ text-decoration:none ;
     top: 270px;
 
 }
-
+.sombra-whats a{
+    box-shadow: rgba(18 140 126) 0 0 10px;
+}
+.sombra-fece a{
+    box-shadow: rgba(66,103,178) 0 0 10px;
+}
+.sombra-dis a{
+    box-shadow: rgba(114,137,218) 0 0 10px;
+}
+.sombra-inst a{
+    box-shadow:rgb(190, 127, 192)  0 0 10px;}
 
 .logo-wats{
 border-radius: 50%;
@@ -53,6 +66,7 @@ box-shadow: 2px solid rgb(18, 140,126);
 font-size: 1.5em;
 left: 20;
 top: 320px;
+box-shadow: rgba(18 140 126) 0 0 10px;
 
 }
 
@@ -74,22 +88,21 @@ top: 320px;
         display: flex;
     }
 
-    .botao-inst a{
-    
+    .botao-inst{
         background:radial-gradient(circle #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
         top: 190px;
     }
-    .botao-wats a{
+    .botao-wats {
         background:radial-gradient( rgb(18 140 126) 45% ,rgb(18 140 126) 50% );
         top: 360px;
      
     }
     
-    .botao-fece a{
- background:radial-gradient( rgb(66,103,178) 45% ,rgb(66,103,178) 50% );
-        top: 450;
+    .botao-fece {
+         background:radial-gradient( rgb(66,103,178) 45% ,rgb(66,103,178) 50% );
+         top: 450;
     }
-    .botao-dis a{
+    .botao-dis {
         background:radial-gradient( rgb(114,137,218) 45% ,rgb(114,137,218) 50%);
         top: 270px;}
 
@@ -99,7 +112,9 @@ top: 320px;
      font-size: 1.5em;
      display: flex;
     }
-
+    .sombra-wats{
+        box-shadow: rgba(18 140 126) 0 0 10px;
+    }
     .logo-wats{
         border-radius: 50%;
         position: fixed;
@@ -109,6 +124,8 @@ top: 320px;
         left: 20;
         top: 320px;
         z-index:3;
+        box-shadow: rgba(18 140 126) 0 0 10px;
+
         }
 
 
@@ -120,7 +137,7 @@ h1 {
     display: flex;
     color: #fff;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.7em;
     margin: 0 10px;
     display: block; 
     font-family: "Audiowide", sans-serif;
@@ -156,16 +173,8 @@ h2 {
     position: relative;
     display: flex;
     width: 100;
-    justify-content: space-between
-    ;
-
+    justify-content: space-between;
     align-items: center;
-
-
-
-    
-
- 
 }
 .container-menuH{
     display: block;
@@ -289,7 +298,7 @@ ul li {
     cursor: pointer;
 }
 .men>li{
-    font-size: 14px;
+    font-size: 12px;
     list-style: none;
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
@@ -477,5 +486,3 @@ i{ margin: 15px;
                         }
 
             }
-
-          
