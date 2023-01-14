@@ -1,0 +1,304 @@
+
+.button-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backButton{
+    background-color: rgba(192, 189, 189, 0.8);
+    padding:  .3rem;
+    border-radius: 45px;
+    border:1px solid #000;
+    box-shadow: .2rem .3rem .5rem rgba(0, 0, 0, 1);
+}
+
+button{
+    position: relative;
+    color: #fff;
+    width:28em;
+    display: flex;
+    align-items: center;
+    height: 7.5rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(23deg, rgba(0,0,0,1) 32%, rgba(255,255,255,1) 100%);
+    border-radius: 43px;
+    border:  .6rem solid #fff;
+}
+
+.btn-container{
+    padding: 3.5rem 4.5rem;
+    text-transform: uppercase;
+}
+.barraEx{
+    position:absolute;
+    top: -1.4rem;
+    background-color:rgba(148, 147, 147, 0.8);
+    width:2rem;
+    height: 3px;
+}
+.seta::before{
+    position: absolute;
+    top: -.8rem;
+    left: 0;
+    content: '';
+    width: 2rem;
+   background-color: rgba(148, 147, 147, 0.8) ;
+    height:.6rem;
+}
+
+
+.seta{
+    position: absolute;
+    top: 1.5rem;
+    left:1.8rem;
+    background-color:rgba(148, 147, 147, 0.8);
+    width:2rem;
+    height:1.5rem;
+    z-index: 1;
+}
+
+.seta::after{
+    position: absolute;
+    top: 1.5rem;
+    left: -1rem;
+    content: '';
+    border-bottom: 35px solid transparent;
+    border-left: 35px solid  transparent;
+    border-right: 35px solid transparent ;
+    border-top: 45px solid rgba(148, 147, 147, 0.8);
+}
+
+.btn-container  p{
+    position: absolute;
+    z-index: 10;
+    top: 1.2rem;
+    left: .8rem;
+    color: #fff;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+.container-down{
+    position: absolute;
+    top: 1rem;
+    right:.8rem;
+    border-radius: 12px;
+    padding: 5px;
+    background-color:#fff;
+}
+
+.download-btn{
+    position: relative;
+    background: rgb(0,0,0);
+    background: linear-gradient(23deg, rgba(0,0,0,1) 32%, rgba(255,255,255,1) 100%);
+    padding: 0 1.5rem;
+    width:3.7rem;
+    height: 4rem;
+    display: flex;
+    border-radius: 12px;
+}
+
+.icon-btn{
+position: absolute;
+background-color: #fff;
+left:1.33rem;
+top: .6em;
+width: .8rem;
+height: 1.2rem;
+animation: seta 1s infinite;
+}
+
+  /* @keyframes seta {
+    0%{
+       top: .6em;
+    }
+
+    100%{
+        top: .8em;
+    } 
+}*/
+
+
+  .down-btn::before{
+    position: absolute;
+    content: '';
+    width:1.82rem;
+    height: .3rem;
+    left:0 ;
+    bottom: .2rem;
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+
+    background-color: #000;
+}
+
+.icon-btn::after{
+    content: '';
+    position: absolute;
+    left: -.3rem;
+    top: 1em;
+    border-bottom: 11px solid transparent;
+    border-left: 11px solid  transparent;
+    border-right:11px solid transparent ;
+    border-top: 12px solid #fff;
+
+
+}
+.down-btn{
+    position: absolute;
+    width:1.82rem;
+    height: 4px;
+    background-color: #fff;
+    bottom: .7rem;
+    left: .8rem;
+
+}
+
+
+ @media (max-width:992px){
+    .button-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    .backButton{
+        background-color: rgba(192, 189, 189, 0.8);
+        padding:  .4rem;
+        border-radius: 2em;
+        border:.1em solid #000;
+        box-shadow: .2rem .3rem .5rem rgba(0, 0, 0, 1);
+    }
+
+
+    button{
+        position: relative;
+        width: 20em;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        height: 6em;
+        background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 45%);
+        border-radius:1.5em;
+        border:  .4em solid #fff;
+    }
+
+    .btn-container{
+        padding: 1.3em 2em;
+        text-transform: uppercase;
+    }
+    .barraEx{
+        position:absolute;
+        top: -1em;
+        background-color:rgba(148, 147, 147, 0.8);
+        width:1.4em;
+        height: .2em;
+    }
+    .seta::before{
+        position: absolute;
+        top: -.6em;
+        left: 0;
+        content: '';
+        width: 1.4em;
+       background-color: rgba(148, 147, 147, 0.8) ;
+        height:.4em;
+    }
+
+
+    .seta{
+        position: absolute;
+        top: 1.5em;
+        left:1.5em;
+        background-color:rgba(148, 147, 147, 0.8);
+        width:1.4em;
+        height:1.2em;
+        z-index: 1;
+    }
+
+    .seta::after{
+        position: absolute;
+        top: 1.2em;
+        left: -.8em;
+        content: '';
+        border-bottom: 1.5em solid transparent;
+        border-left: 1.5em solid  transparent;
+        border-right:1.5em solid transparent ;
+        border-top: 2em solid rgba(148, 147, 147, 0.8);
+    }
+
+    .btn-container  p{
+        position: absolute;
+        z-index: 10;
+        top: 1.6rem;
+        left: .1em;
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+
+    .container-down{
+        position: absolute;
+        top: .7em;
+        right:.5em;
+        border-radius: 12px;
+        padding: .3em;
+        background-color:#fff;
+    }
+
+    .download-btn{
+        position: relative;
+        background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 30%);
+        padding: .5em;
+        width:2.8em;
+        height: 2.8em;
+        display: flex;
+        border-radius: 12px;
+    }
+
+    .icon-btn{
+    position: absolute;
+    background-color: #fff;
+    left:1.13em;
+    top: .3em;
+    width: .5em;
+    height: 1em;
+    animation: seta 1s infinite;
+    }
+    
+    .icon-btn::after{
+        content: '';
+        position: absolute;
+        left: -.3em;
+        top: .7em;
+        border-bottom: 8px solid transparent;
+        border-left:8px solid  transparent;
+        border-right:8px solid transparent ;
+        border-top: 12px solid #fff;
+    
+    
+    }
+    .down-btn::before{
+        position: absolute;
+        content: '';
+        width:1.32rem;
+        height: .3em;
+
+        left:0;
+        bottom: .19em;
+        border-left: 5px solid #fff;
+        border-right: 5px solid #fff;
+    
+        background-color: #000;
+    }
+    
+    .down-btn{
+        position: absolute;
+        width:1.32rem;
+        height: .3em;
+        background-color: #fff;
+        bottom: .5em;
+        left: .7em;
+    
+    }
+}
