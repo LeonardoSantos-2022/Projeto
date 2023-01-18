@@ -240,7 +240,7 @@ margin: 0 5% ;
     }
 
     .img2{
-    width: 4%;
+    width: 100%;
     box-shadow: 0 4px 8px 1px #000;
     border-radius: 2%;
     margin-bottom: 20px;
@@ -467,7 +467,7 @@ margin: 0 5% ;
 
                 /* imagens */
                 .img2 {
-                width: 70%;
+                width: 80%;
                 box-shadow: 0 4px 8px 1px #000;
                 border-radius: 2%;
                 margin-bottom: 20px;
@@ -521,4 +521,6 @@ margin: 0 5% ;
                     i{ display:none;}
 
                     }
+
+                    
 

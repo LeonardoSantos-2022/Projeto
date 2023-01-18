@@ -24,24 +24,24 @@ text-decoration:none ;
 
 .botao-wats a{
     background-color:rgb(18 140 126);
-    top: 360px;
+    top: 350px;
 }
 .botao-fece a{
     background-color:rgb(66,103,178);
-    top: 450px;
+    top: 440px;
 }
 
 
 .botao-inst a{
     background: rgb(131,58,180);
     background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    top: 170px;
+    top: 160px;
     
 }
 
 .botao-dis a{
     background: rgb(114,137,218);
-    top: 270px;
+    top: 260px;
 
 }
 .sombra-whats a{
@@ -190,7 +190,7 @@ img {
 }
 
 .img2 {
-    width: 40%;
+    width: 60%;
     border-radius: 2%;
     margin-bottom: 20px;
     margin-top: 30px;
@@ -282,7 +282,7 @@ top: 0;
 
 .conteudo {
     text-align: center;
-    margin-top: 140px;
+    margin-top: 120px;
     box-shadow: 0 8px 13px 4px #000;
 }
 
