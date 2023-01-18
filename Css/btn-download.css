@@ -673,7 +673,7 @@ object-fit: cover;
         0%{
             top: -1rem;
         }  100%{
-             top:-.6rem;
+             top:-.8rem;
             }
     }
 }
