@@ -1,5 +1,8 @@
 
 /* cabecario */
+a,a:hover{
+    color: #fff;
+}
 
 .canais ~ a{
     border: none;
