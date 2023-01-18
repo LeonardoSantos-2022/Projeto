@@ -12,6 +12,7 @@ margin: 0 5% ;
 }
 .cabecario {
     top: 0;
+    height: 130px;
     background-color: black;
     width: 100%;
     position: fixed;
