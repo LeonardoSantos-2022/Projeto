@@ -612,7 +612,7 @@ object-fit: cover;
 
     .btn-container p{
     position: absolute;
-    top: 1.5rem;
+    top: 1.4rem;
     font-size:1em;
     font-weight: bold;
     text-transform:uppercase;
@@ -646,7 +646,7 @@ object-fit: cover;
     .download-btn{
     position: absolute;
     top: -1rem;
-    right: .4em;
+    right: .3em;
     width:60%;
     object-fit: cover;
     animation: seta 1s linear infinite;  
@@ -661,7 +661,7 @@ object-fit: cover;
     width:60%;
     position: absolute;
     bottom: 0;
-    right: .4em;
+    right: .3em;
     }
         
     .base-btn img{
