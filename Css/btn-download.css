@@ -69,7 +69,7 @@ top: -.9rem;
 right: .7em;
 width:55%;
 object-fit: cover;
-animation: seta 1s linear infinite;  
+animation: seta 1s linear infinite alternate;  
 }
 
 .download-btn img{
@@ -136,7 +136,6 @@ object-fit: cover;
     .seta{
     position: relative;
     width: 15%;
-    
     }
 
     .seta img{
@@ -145,7 +144,6 @@ object-fit: cover;
     margin: 0;
     border: none;
     border-radius:1em ;
-    background: transparent;
     }
 
     .container-download{
@@ -165,7 +163,7 @@ object-fit: cover;
     right: .7em;
     width:55%;
     object-fit: cover;
-    animation: seta 1s linear infinite;  
+    animation: seta 1s linear infinite alternate;  
     }
         
     .download-btn img{
@@ -179,6 +177,7 @@ object-fit: cover;
     position: absolute;
     bottom: 0;
     right: .7em;
+    z-index: 0;
     }
         
     .base-btn img{
