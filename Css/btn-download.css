@@ -343,7 +343,7 @@ object-fit: cover;
     right: .7em;
     width:55%;
     object-fit: cover;
-    animation: seta 1s linear infinite;  
+    animation: seta 1s linear infinite alternate; 
     }
         
     .download-btn img{
@@ -559,7 +559,7 @@ object-fit: cover;
     right: .5em;
     width:55%;
     object-fit: cover;
-    animation: seta 1s linear infinite;  
+    animation: seta 1s linear infinite alternate; 
     }
         
     .download-btn img{
@@ -648,7 +648,7 @@ object-fit: cover;
     right: .3em;
     width:60%;
     object-fit: cover;
-    animation: seta 1s linear infinite;  
+    animation: seta 1s linear infinite alternate; 
     }
         
     .download-btn img{
