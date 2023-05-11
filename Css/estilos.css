@@ -13,13 +13,20 @@
     border-radius: 50%;
     margin: 0 auto;
 }
+
+.botao-ins,.botao-wats,.botao-fece,.botao-dis{
+    position: relative;
+}
 /* botoes redes */
 .botao-wats a,.botao-fece a,.botao-inst a ,.botao-dis a{
 border-radius: 50%;
 position: fixed;
+width: 3.5rem;
+height:3.5rem;
 right: 125px;
 align-items: center;
 padding: 0 1px;
+
 text-decoration:none ;
 }
 
@@ -32,30 +39,90 @@ text-decoration:none ;
     top: 440px;
 }
 
-
 .botao-inst a{
     background: rgb(131,58,180);
     background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     top: 160px;
-    
 }
 
-.botao-dis a{
+
+.botao-dis a {
     background: rgb(114,137,218);
-    top: 260px;
+    top: 250px;
+}
 
+.botao-wats a::after{
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    background-color:rgb(18 140 126);
+    z-index: -1;
+    opacity: .9;
+    width: inherit;
+    height: inherit;
+    border-radius: 100%;
+    transform:  scale(0.5);
+    animation: pulse 5s ease-in-out infinite;
 }
-.sombra-whats a{
-    box-shadow: rgba(18 140 126) 0 0 10px;
+.botao-fece a::after{
+    top: 0;
+    left: 0;
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background-color:rgb(66,103,178);
+    z-index: -1;
+    opacity: .9;
+    border-radius: 100%;
+    transform:  scale(0.5);
+    animation: pulse 6s ease-in-out infinite;
 }
-.sombra-fece a{
-    box-shadow: rgba(66,103,178) 0 0 10px;
+
+
+.botao-inst a::after{
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: rgb(131,58,180);
+    background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    z-index: -1;
+    opacity: 0;
+    border-radius: 100%;
+    transform:  scale(0.5);
+    animation: pulse 4s ease-in-out infinite;
 }
-.sombra-dis a{
-    box-shadow: rgba(114,137,218) 0 0 10px;
+
+.botao-dis a::after{
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: rgb(114,137,218);
+    z-index: -1;
+    opacity: .9;
+    border-radius: 100%;
+    transform:  scale(0.5);
+    animation: pulse 4s ease-in-out infinite;
 }
-.sombra-inst a{
-    box-shadow:rgb(190, 127, 192)  0 0 10px;}
+
+
+@keyframes pulse{
+
+75%{
+    opacity: 0.5;
+}
+  100%{
+   transform: scale(1.2);
+   opacity: 0;
+  }
+}
 
 .logo-wats{
 border-radius: 50%;
