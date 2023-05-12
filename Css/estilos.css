@@ -125,16 +125,40 @@ text-decoration:none ;
 }
 
 .logo-wats{
-border-radius: 50%;
 position: fixed;
-padding: 0 1px;
-background-color:rgb(18, 140,126);
-box-shadow: 2px solid rgb(18, 140,126);
-font-size: 1.5em;
 left: 20;
 top: 320px;
-box-shadow: rgba(18 140 126) 0 0 10px;
+}
+.logo-wats a{
+text-decoration: none;
+}
 
+.pulse-whats{
+ position: relative;
+border-radius: 50%;
+width: 3.5rem;
+height:3.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5px;
+background-color:rgb(18, 140,126);
+font-size: 1.2em;
+
+}
+.pulse-whats::after{ 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgb(18 140 126);
+    z-index: -1;
+    opacity: .9;
+    width: inherit;
+    height: inherit;
+    border-radius: 100%;
+    transform:  scale(0.5);
+    animation: pulse 5s ease-in-out infinite;
 }
 
 @media screen and ( max-width:992px) {
@@ -182,21 +206,6 @@ box-shadow: rgba(18 140 126) 0 0 10px;
     .sombra-wats{
         box-shadow: rgba(18 140 126) 0 0 10px;
     }
-    .logo-wats{
-        border-radius: 50%;
-        position: fixed;
-        padding: 0 2px;
-        background:radial-gradient( rgb(18 140 126) 45% ,rgb(18 140 126) 50%);
-        font-size: 1.2em;
-        left: 20;
-        top: 320px;
-        z-index:3;
-        box-shadow: rgba(18 140 126) 0 0 10px;
-
-        }
-
-
-
 
 /* titulos */
 
