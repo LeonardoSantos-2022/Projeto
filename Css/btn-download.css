@@ -1,0 +1,680 @@
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.btn-downlo{
+position: relative;
+color: #fff;
+width: 35%;
+padding: .5em;
+border: none;
+display: inline-block;
+border-radius:2.5em;
+box-shadow: 0px 2px 7px 2px #000000;
+background-color:rgb(216, 216, 216);
+}
+
+.btn-container{
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding:  0 .3em .3em .2em;
+background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 45%);
+border:  .3em solid #fff;
+border-radius:1.5em;
+}
+
+.btn-container p{
+position: absolute;
+top: 2rem;
+font-size:2em;
+font-weight: bold;
+text-transform:uppercase;
+left: .1rem;
+}
+
+.seta{
+position: relative;
+width: 18%;
+
+}
+
+.seta img{
+object-fit: cover;
+width:100%;
+margin: 0;
+border: none;
+border-radius:1em ;
+background: transparent;
+}
+
+.container-download{
+position: relative;
+width: 15%;
+height: 3.5em;
+margin: .8em .8em;
+background-color:#000;
+border-radius: .7em;
+border: .3em solid #fff;
+
+}
+
+.download-btn{
+position: absolute;
+top: -.9rem;
+right: .7em;
+width:55%;
+object-fit: cover;
+animation: seta 1s linear infinite alternate;  
+}
+
+.download-btn img{
+width: 100%;
+object-fit: cover;
+
+}
+
+.base-btn{
+width:55%;
+position: absolute;
+bottom: 0;
+right: .7em;
+}
+
+.base-btn img{
+width: 100%;
+object-fit: cover;
+}
+
+@keyframes seta {
+    0%{
+    top: -.9rem;
+    }
+
+    100%{
+    top:-.5rem;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1000px) {
+    .btn-downlo{
+    width: 40%;
+    position: relative;
+    color: #fff;
+    padding: .4em;
+    border: none;
+    display: inline-block;
+    border-radius:1.8em;
+    background-color:rgb(216, 216, 216);
+    box-shadow: 0px 2px 7px 2px #000000;
+    }
+    
+    .btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:  0 .3em .1em .2em;
+    background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 45%);
+    border:  .4em solid #fff;
+    border-radius:1.5em;
+    }
+    
+    .btn-container p{
+    position: absolute;
+    top: 1.4rem;
+    font-size:2em;
+    font-weight: bold;
+    text-transform:uppercase;
+    left: 0;
+    }
+    
+
+    .seta{
+    position: relative;
+    width: 15%;
+    }
+
+    .seta img{
+    object-fit: cover;
+    width:100%;
+    margin: 0;
+    border: none;
+    border-radius:1em ;
+    }
+
+    .container-download{
+    position: relative;
+    width: 18%;
+    height: 4em;
+    margin: .5em .5em;
+    background-color:#000;
+    border-radius: .7em;
+    border: .3em solid #fff;
+        
+    }
+        
+    .download-btn{
+    position: absolute;
+    top: -.9rem;
+    right: .7em;
+    width:55%;
+    object-fit: cover;
+    animation: seta 1s linear infinite alternate;  
+    }
+        
+    .download-btn img{
+    width: 100%;
+    object-fit: cover;
+        
+    }
+        
+    .base-btn{
+    width:55%;
+    position: absolute;
+    bottom: 0;
+    right: .7em;
+    z-index: 0;
+    }
+        
+    .base-btn img{
+    width: 100%;
+    object-fit: cover;
+    }
+
+    @keyframes seta {
+    0%{
+        top: -.9rem;
+        }100%{
+            top:-.5rem;
+            }
+        }
+}
+
+@media screen and (max-width:992px) {
+    .btn-downlo{
+    position: relative;
+    color: #fff;
+    width: 50%;
+    padding: .4em;
+    border: none;
+    display: inline-block;
+    border-radius:1.8em;
+    box-shadow: 0px 2px 7px 2px #000000;
+    background-color:rgb(216, 216, 216);
+    }
+    
+    .btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:  0 .3em .1em .2em;
+    background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 45%);
+    border:  .3em solid #fff;
+    border-radius:1.5em;
+    }
+    
+    .btn-container p{
+    position: absolute;
+    top: 2rem;
+    font-size:1.2em;
+    font-weight: bold;
+    text-transform:uppercase;
+    left: 1%;
+    }
+    
+
+    .seta{
+    position: relative;
+    width: 20%;
+    }
+
+    .seta img{
+    object-fit: cover;
+    width:100%;
+    margin: 0;
+    border: none;
+    border-radius:1em ;
+    background: transparent;
+    }
+
+    .container-download{
+    position: relative;
+    width: 22%;
+    height: 3.3em;
+    margin: .5em .5em;
+    background-color:#000;
+    border-radius: .7em;
+    border: .5em solid #fff;
+    }
+        
+    .download-btn{
+    position: absolute;
+    top: -.8rem;
+    right: .5em;
+    width:55%;
+    object-fit: cover;
+    animation: seta 1s linear infinite;  
+    }
+        
+    .download-btn img{
+    width: 100%;
+    object-fit: cover;
+    }
+        
+    .base-btn{
+    width:55%;
+    position: absolute;
+    bottom: 0;
+    right: .5em;
+    }
+        
+    .base-btn img{
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+    }
+        
+        
+}
+@media screen and (min-width:770px) and (max-width:992px){
+    .btn-downlo{
+    width: 60%;
+    position: relative;
+    color: #fff;
+    padding: .4em;
+    border: none;
+    display: inline-block;
+    border-radius:1.8em;
+    background-color:rgb(216, 216, 216);
+    box-shadow: 0px 2px 7px 2px #000000;
+    }
+    
+    .btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:  0 .3em .1em .2em;
+    background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 45%);
+    border:  .4em solid #fff;
+    border-radius:1.5em;
+    }
+    
+    .btn-container p{
+    position: absolute;
+    top: 2.3rem;
+    font-size:2em;
+    font-weight: bold;
+    text-transform:uppercase;
+    left: 0;
+    }
+    
+    .seta{
+    position: relative;
+    width: 18%;
+    
+    }
+
+    .seta img{
+    object-fit: cover;
+    width:100%;
+    margin: 0;
+    border: none;
+    border-radius:1em ;
+    background: transparent;
+    }
+
+    .container-download{
+    position: relative;
+    width: 15%;
+    height: 3.5em;
+    margin: 1em 1em;
+    background-color:#000;
+    border-radius: .7em;
+    border: .3em solid #fff;
+    }
+        
+    .download-btn{
+    position: absolute;
+    top: -.9rem;
+    right: .7em;
+    width:55%;
+    object-fit: cover;
+    animation: seta 1s linear infinite alternate; 
+    }
+        
+    .download-btn img{
+    width: 100%;
+    object-fit: cover;  
+    }
+        
+    .base-btn{
+    width:55%;
+    position: absolute;
+    bottom: 0;
+    right: .7em;
+    }
+        
+    .base-btn img{
+    width: 100%;
+    object-fit: cover;
+    }
+
+    @keyframes seta {
+        0%{
+            top: -.9rem;
+        }100%{
+            top:-.5rem;
+        }
+    }
+}
+
+@media screen and (max-width:763px) {
+.btn-downlo{
+    width: 60%;
+    position: relative;
+    color: #fff;
+    padding: .3em;
+    border: none;
+    display: inline-block;
+    border-radius:1.8em;
+    background-color:rgb(216, 216, 216);
+    box-shadow: 0px 2px 7px 2px #000000;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:  0 .3em .1em .2em;
+    background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 45%);
+    border:  .3em solid #fff;
+    border-radius:1.5em;
+}
+
+.btn-container p{
+    position: absolute;
+    top: 2rem;
+    font-size:1.3em;
+    font-weight: 700;
+    text-transform:uppercase;
+    left: 1%;
+}
+
+
+.seta{
+    position: relative;
+    width: 20%;
+
+}
+
+.seta img{
+    object-fit: cover;
+    width:100%;
+    margin: 0;
+    border: none;
+    border-radius:1em ;
+    background: transparent;
+}
+
+.container-download{
+    position: relative;
+    width: 18%;
+    height: 3em;
+    margin: .8em .8em;
+    background-color:#000;
+    border-radius: .7em;
+    border: .3em solid #fff;
+    }
+    
+    .download-btn{
+    position: absolute;
+    top: -.9rem;
+    right: .5em;
+    width:55%;
+    object-fit: cover;
+    animation: seta 1s linear infinite;  
+    }
+    
+    .download-btn img{
+    width: 100%;
+    object-fit: cover;   
+    }
+    
+    .base-btn{
+    width:55%;
+    position: absolute;
+    bottom: 0;
+    right: .5em;
+    }
+    
+    .base-btn img{
+    width: 100%;
+    object-fit: cover;
+    }
+
+    @keyframes seta {
+        0%{
+            top: -.9rem;
+        } 100%{
+            top:-.5rem;
+            }
+    }
+}
+
+@media screen and (max-width:565px){
+    .btn-downlo{
+    width: 60%;
+    position: relative;
+    color: #fff;
+    padding: .3em;
+    border: none;
+    display: inline-block;
+    border-radius:1.8em;
+    background-color:rgb(216, 216, 216);
+    box-shadow: 0px 2px 7px 2px #000000;
+    }
+    
+    .btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:  0 .3em .1em .2em;
+    background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 45%);
+    border:  .3em solid #fff;
+    border-radius:1.5em;
+    }
+
+    .btn-container p{
+    position: absolute;
+    top: 1.3em;
+    font-size:4vw;
+    font-weight: bold;
+    text-transform:uppercase;
+    left: 0;
+    }
+
+    .seta{
+    position: relative;
+    width: 18%;
+    }
+
+    .seta img{
+    object-fit: cover;
+    width:100%;
+    margin: 0;
+    border: none;
+    border-radius:1em ;
+    background: transparent;
+    }
+} 
+         
+@media screen and (max-width:480px){
+    .btn-downlo{ 
+    width: 70%;
+    position: relative;
+    color: #fff;
+    padding: .3em;
+    border: none;
+    display: inline-block;
+    border-radius:1.8em;
+    background-color:rgb(216, 216, 216);
+    box-shadow: 0px 2px 7px 2px #000000;
+    }
+    
+    .btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:  0 .3em .1em .2em;
+    background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 45%);
+    border:  .3em solid #fff;
+    border-radius:1.5em;
+    }
+    .btn-container p{
+    position: absolute;
+    top: 1.3em;
+    font-size:5vw;
+    font-weight: bold;
+    text-transform:uppercase;
+    left: .1rem;
+    }
+
+    .container-download{
+    position: relative;
+    width: 18%;
+    height: 3em;
+    margin: .5em .5em;
+    background-color:#000;
+    border-radius: .7em;
+    border: .3em solid #fff;     
+    }
+        
+    .download-btn{
+    position: absolute;
+    top: -1rem;
+    right: .5em;
+    width:55%;
+    object-fit: cover;
+    animation: seta 1s linear infinite alternate; 
+    }
+        
+    .download-btn img{
+    width: 100%;
+    object-fit: cover;  
+    }
+        
+    .base-btn{
+    width:55%;
+    position: absolute;
+    bottom: 0;
+    right: .5em;
+    }
+        
+    .base-btn img{
+    width: 100%;
+    object-fit: cover;
+    }
+    @keyframes seta {
+        0%{
+            top: -1rem;
+        } 100%{
+            top:-.6rem;
+         }
+    }
+
+} @media screen and (max-width:392px){
+    .btn-downlo{
+    width:12em;
+    position: relative;
+    color: #fff;
+    padding: .2em;
+    border: none;
+    display: inline-block;
+    border-radius:1.3em;
+    background-color:rgb(216, 216, 216);
+    box-shadow: 0px 2px 7px 2px #000000;
+    }
+    
+    .btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:  0 .3em .1em .2em;
+    background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 45%);
+    border:  .3em solid #fff;
+    border-radius:1.3em;
+    }
+
+    .btn-container p{
+    position: absolute;
+    top: 1.4rem;
+    font-size:1em;
+    font-weight: bold;
+    text-transform:uppercase;
+    left: 4%;
+    }   
+
+    .seta{
+    position: relative;
+    width: 20%;
+    }
+
+    .seta img{
+    object-fit: cover;
+    width:100%;
+    margin: 0;
+    border: none;
+    border-radius:1em ;
+    background: transparent;
+    }
+
+    .container-download{
+    position: relative;
+    width: 20%;
+    height: 2.5em;
+    margin: .3em .3em;
+    background-color:#000;
+    border-radius: .5em;
+    border: .3em solid #fff;
+    }
+        
+    .download-btn{
+    position: absolute;
+    top: -1rem;
+    right: .3em;
+    width:60%;
+    object-fit: cover;
+    animation: seta 1s linear infinite alternate; 
+    }
+        
+    .download-btn img{
+    width: 100%;
+    object-fit: cover;
+    }
+        
+    .base-btn{
+    width:60%;
+    position: absolute;
+    bottom: 0;
+    right: .3em;
+    }
+        
+    .base-btn img{
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+    }
+    @keyframes seta {
+        0%{
+            top: -1rem;
+        }  100%{
+             top:-.8rem;
+            }
+    }
+}
+
+
