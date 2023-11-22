@@ -13,7 +13,15 @@
     border-radius: 50%;
     margin: 0 auto;
 }
+.img2 {
+    width: 30%;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    height: 30%;
+    margin: 20px;
 
+}
 .botao-ins,.botao-wats,.botao-fece,.botao-dis{
     position: relative;
 }
@@ -23,33 +31,33 @@ border-radius: 50%;
 position: fixed;
 width: 3.5rem;
 height:3.5rem;
-right: 125px;
+right: 95px;
 align-items: center;
 padding: 0 1px;
 
 text-decoration:none ;
 }
-
-.botao-wats a{
-    background-color:rgb(18 140 126);
-    top: 350px;
-}
-.botao-fece a{
-    background-color:rgb(66,103,178);
-    top: 440px;
-}
-
 .botao-inst a{
     background: rgb(131,58,180);
     background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    top: 160px;
+    top: 240px;
 }
-
-
 .botao-dis a {
     background: rgb(114,137,218);
-    top: 250px;
+    top: 340px;
 }
+.botao-wats a{
+    background-color:rgb(18 140 126);
+    top: 440px;
+}
+.botao-fece a{
+    background-color:rgb(66,103,178);
+    top: 530px;
+}
+
+
+
+
 
 .botao-wats a::after{
     top: 0;
@@ -191,7 +199,7 @@ font-size: 1.2em;
     
     .botao-fece {
          background:radial-gradient( rgb(66,103,178) 45% ,rgb(66,103,178) 50% );
-         top: 450;
+         top: 350;
     }
     .botao-dis {
         background:radial-gradient( rgb(114,137,218) 45% ,rgb(114,137,218) 50%);
@@ -229,13 +237,13 @@ h2 {
 
 h3 {
     color: #000;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 h2 {
     margin-top: 10px;
     text-align: center;
-    font-size: 27px;
+    font-weight: bolder;  
     margin-bottom: 10px;
     
 }
@@ -248,7 +256,7 @@ h2 {
 .container--menu {
     position: relative;
     display: flex;
-    width: 100;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -267,7 +275,7 @@ img {
 }
 
 .img2 {
-    width: 60%;
+    width: 15rem;
     border-radius: 2%;
     margin-bottom: 20px;
     margin-top: 30px;
@@ -344,12 +352,12 @@ top: 0;
 
 /* conteudos da pagina */
 .conteudo2 {
-    margin-top: 5px;
+    margin-top: 10px;
     
    
 }
 .conteudo3{
-    margin-top: 130px;
+    margin-top: 140px;
     text-align: center;
     box-shadow: 0 8px 13px 4px rgb(70, 69, 69);
 }
@@ -359,7 +367,7 @@ top: 0;
 
 .conteudo {
     text-align: center;
-    margin-top: 120px;
+    margin-top:140px;
     box-shadow: 0 8px 13px 4px #000;
 }
 
@@ -461,11 +469,15 @@ i{ margin: 15px;
                     font-size: 15px; 
                     font-family: "Audiowide", sans-serif;
                     font-weight: bolder;
-        
+                    transition:all 1.3s ease-in ;
                     }
                     .container--menu{
                         margin-top: -15px;
                      
+                    }
+
+                    h2{
+                        font-size: 25px;
                     }
                     
 
