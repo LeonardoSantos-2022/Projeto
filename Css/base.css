@@ -1,9 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+    /* font-family: 'Roboto', sans-serif; */
     margin: 0;
     padding: 0;
     background-image: linear-gradient(#fff,rgb(172, 170, 170));
