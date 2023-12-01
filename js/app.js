@@ -13,7 +13,7 @@ botao.addEventListener('click',function(){
 })
 navbar=document.querySelector('.cabecario')
 window.addEventListener('scroll',function(){
-if (this.scrollY > 0) {
+if (this.scrollY > 0 && this.innerWidth > 992) {
     navbar.style.top='-130px';
     navbar.style.transition='all .5s ease-in';
 }else{
