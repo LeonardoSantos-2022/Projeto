@@ -25,7 +25,12 @@ margin: 0 5% ;
     box-shadow: 0 1px 10px 1px #000;
 
 }
-
+.ladoesquerdo{
+    float: left;
+}
+.ladodireito{
+    float: right;
+}
 
 /* canais*/
 
@@ -482,6 +487,7 @@ margin: 0 5% ;
                 margin-bottom: 20px;
                 margin-top: 30px;
                 height: 50%;
+                
                 margin: 20px;
                 }
                 .img3 {

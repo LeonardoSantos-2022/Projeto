@@ -22,6 +22,9 @@
     margin: 20px;
 
 }
+
+
+
 .botao-ins,.botao-wats,.botao-fece,.botao-dis{
     position: relative;
 }
@@ -34,7 +37,6 @@ height:3.5rem;
 right: 95px;
 align-items: center;
 padding: 0 1px;
-
 text-decoration:none ;
 }
 .botao-inst a{
@@ -573,3 +575,6 @@ i{ margin: 15px;
                         }
 
             }
+
+          
+
