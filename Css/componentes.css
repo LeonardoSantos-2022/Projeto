@@ -144,6 +144,7 @@ margin: 0 5% ;
     .li{
     text-align: center;
     }
+
     .menu-mobile li > a {
     color: #fff;
     display: flex;
@@ -157,15 +158,15 @@ margin: 0 5% ;
     .menu-mobile{
     position: fixed;
     display: block;
-    top: 110px;
-    height: 100%;
+    top: 8em;
     width: 100%;
+    height: 100%;
     z-index: 99;
     left:0;
     background-color: black;
-    border-right: 5px solid rgb(68, 68, 68);
+    /* border-right: 5px solid rgb(68, 68, 68); */
     box-shadow: 0 1px 15px 1px #000;
-    transition:1s;
+    transition:.3s ease;
     }
 
 
@@ -197,7 +198,7 @@ margin: 0 5% ;
 
     .menu-active{
     left:-100%;
-    transition: 1s;
+    transition:.3s ease;
     }
 
     .menu{
