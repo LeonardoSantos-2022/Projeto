@@ -30,8 +30,8 @@ border-radius:1.3em;
 
 .btn-container p{
 position: absolute;
-top: 1.7rem;
-font-size:2em;
+top: 2rem;
+font-size:1.8rem;
 font-weight: bold;
 text-transform:uppercase;
 left: 0;
@@ -90,15 +90,13 @@ width: 80%;
 object-fit: cover;
 }
 
-@keyframes seta {
-    0%{
-    top: -.7rem;
+  @keyframes seta {
+        0%{
+            top: -.9rem;
+        } 100%{
+            top:-.5rem;
+            }
     }
-
-    100%{
-    top:-.3rem;
-    }
-}
 
 @media screen and (min-width:992px) and (max-width:1000px) {
    
@@ -186,13 +184,13 @@ object-fit: cover;
     object-fit: cover;
     }
 
-    @keyframes seta {
-    0%{
-        top: -.9rem;
-        }100%{
+   @keyframes seta {
+        0%{
+            top: -.9rem;
+        } 100%{
             top:-.5rem;
             }
-        }
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -224,10 +222,10 @@ object-fit: cover;
     .btn-container p{
     position: absolute;
     top: 2rem;
-    font-size:1.2em;
+    font-size:1.5rem;
     font-weight: bold;
     text-transform:uppercase;
-    left: 1%;
+    left: .2rem;
     }
     
 
@@ -309,11 +307,11 @@ object-fit: cover;
     
     .btn-container p{
     position: absolute;
-    top: 2.3rem;
-    font-size:2em;
+    top: 2.5rem;
+    font-size:2.2em;
     font-weight: bold;
     text-transform:uppercase;
-    left: 0;
+    
     }
     
     .seta{
@@ -370,9 +368,9 @@ object-fit: cover;
     @keyframes seta {
         0%{
             top: -.9rem;
-        }100%{
+        } 100%{
             top:-.5rem;
-        }
+            }
     }
 }
 
@@ -402,10 +400,7 @@ object-fit: cover;
 .btn-container p{
     position: absolute;
     top: 2rem;
-    font-size:1.3em;
-    font-weight: 700;
     text-transform:uppercase;
-    left: 1%;
 }
 
 
@@ -495,10 +490,9 @@ object-fit: cover;
     .btn-container p{
     position: absolute;
     top: 1.3em;
-    font-size:4vw;
+    font-size: 1.5rem;
     font-weight: bold;
     text-transform:uppercase;
-    left: 0;
     }
 
     .seta{
@@ -541,10 +535,9 @@ object-fit: cover;
     .btn-container p{
     position: absolute;
     top: 1.3em;
-    font-size:5vw;
+    font-size: 1.5rem;
     font-weight: bold;
     text-transform:uppercase;
-    left: .1rem;
     }
 
     .container-download{
@@ -574,7 +567,7 @@ object-fit: cover;
     .base-btn{
     width:55%;
     position: absolute;
-    bottom: 0;
+    bottom: .2rem;
     right: .5em;
     }
         
@@ -582,12 +575,12 @@ object-fit: cover;
     width: 100%;
     object-fit: cover;
     }
-    @keyframes seta {
+     @keyframes seta {
         0%{
-            top: -1rem;
+            top: -.9rem;
         } 100%{
-            top:-.6rem;
-         }
+            top:-.5rem;
+            }
     }
 
 } @media screen and (max-width:392px){
@@ -616,10 +609,10 @@ object-fit: cover;
     .btn-container p{
     position: absolute;
     top: 1.4rem;
-    font-size:1em;
+    font-size: 1rem;
     font-weight: bold;
     text-transform:uppercase;
-    left: 4%;
+
     }   
 
     .seta{
@@ -672,11 +665,11 @@ object-fit: cover;
     margin: 0;
     object-fit: cover;
     }
-    @keyframes seta {
+      @keyframes seta {
         0%{
-            top: -1rem;
-        }  100%{
-             top:-.8rem;
+            top: -.9rem;
+        } 100%{
+            top:-.5rem;
             }
     }
 }

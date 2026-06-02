@@ -98,19 +98,24 @@ h4 {
 .conteudo p {
     width: 80%;
     font-family:sans-serif;
+    font-weight: bold;
     margin: 0 auto;
+    text-shadow: 1px 1px 1px rgb(70, 69, 69);
 }
 
 .conteudo2 {
     padding-top: 10px;
+    font-weight: bold;
     font-family:sans-serif;
+    text-shadow: 1px 1px 1px rgb(70, 69, 69);
 }
 
 .conteudo3 {
     padding-top: 140px;
     text-align: center;
+    font-weight: bold;
     font-family:sans-serif;
-    /* box-shadow: 0 8px 13px 4px rgb(70, 69, 69); */
+    text-shadow: 1px 1px 1px rgb(70, 69, 69);
 }
 
 @media screen and (max-width:992px) {
@@ -118,8 +123,13 @@ h4 {
     .conteudo {
         padding-top: 5rem;
         padding-bottom: 3rem;
-
     }
+
+    .conteudo3 {
+    padding-top: 5rem;
+   
+}
+
 }
 
 /*Imgs sessão Downloads*/
@@ -154,6 +164,7 @@ h4 {
 
 /* imagens da pagina */
 img {
+    filter: drop-shadow(0 4px 8px 1px #000);
     margin-top: 20px;
     border-radius: 2%;
     margin-bottom: 10px;
@@ -161,12 +172,13 @@ img {
 }
 
 .img {
-    filter: drop-shadow(2px 2px 2px #000);
+    filter: drop-shadow(0 4px 8px 1px #000);
     width: 100px;
     height: 100px;
 }
 
 .img2 {
+    filter: drop-shadow(0 4px 8px 1px #000);
     width: 15rem;
     border-radius: 2%;
     margin-bottom: 20px;
@@ -174,6 +186,16 @@ img {
     height: 30%;
     margin: 20px;
 
+}
+
+.imgyoutube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1.9rem 0;
+    width: 20rem;
+    height: 20%;
 }
 
 .img3 {
@@ -198,6 +220,7 @@ img {
 }
 
 .img5 {
+    filter: drop-shadow(0 4px 8px 1px #000);
     border-radius: 50%;
     position: fixed;
     top: 0;
@@ -496,14 +519,14 @@ i {
     /* imagens */
     img {
         margin-top: 20px;
-        box-shadow: 0 2px 2px 1px #000;
+        filter: drop-shadow(0 4px 8px 1px #000);
         border-radius: 2%;
         margin-bottom: 10px;
     }
 
     .img2 {
         width: 80%;
-        box-shadow: 0 2px 2px 1px #000;
+        filter: drop-shadow(0 4px 8px 1px #000);
         border-radius: 2%;
         margin-bottom: 20px;
         margin-top: 30px;
@@ -515,7 +538,7 @@ i {
     .img3 {
         left: 0;
         width: 45%;
-        box-shadow: 0 2px 2px 1px #000;
+       filter: drop-shadow(0 4px 8px 1px #000);
         border-radius: 2%;
         margin-bottom: 20px;
         margin-top: 30px;
@@ -524,7 +547,7 @@ i {
 
     .img4 {
         width: 45%;
-        box-shadow: 0 2px 2px 1px #000;
+        filter: drop-shadow(0 4px 8px 1px #000);
         border-radius: 50%;
         margin-bottom: 20px;
         margin-top: 30px;
