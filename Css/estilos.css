@@ -375,7 +375,6 @@
     h1 {
         display: block;
         font-size: 15px;
-        font-family: "Audiowide", sans-serif;
         font-weight: bolder;
         transition: all 1.3s ease-in;
     }
@@ -535,8 +534,9 @@
     }
 
     .btnRetorn i {
-        top: 27em;
-        right: 1.5rem;
+        top: 47rem;
+        right: 1.2rem;
+         padding: 1rem 1rem;
     }
 
 }

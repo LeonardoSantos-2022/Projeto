@@ -51,6 +51,7 @@ h1 {
     display: block;
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
+    text-transform: capitalize;
     cursor: pointer;
 }
 
@@ -68,6 +69,7 @@ h2 {
 h3 {
     color: #000;
     font-size: 25px;
+    text-transform: capitalize;
 }
 
 h4 {
@@ -95,16 +97,19 @@ h4 {
 
 .conteudo p {
     width: 80%;
+    font-family:sans-serif;
     margin: 0 auto;
 }
 
 .conteudo2 {
     padding-top: 10px;
+    font-family:sans-serif;
 }
 
 .conteudo3 {
     padding-top: 140px;
     text-align: center;
+    font-family:sans-serif;
     /* box-shadow: 0 8px 13px 4px rgb(70, 69, 69); */
 }
 
@@ -429,7 +434,6 @@ i {
     /*menu-navegacao*/
     .menu-navegacao {
         top: 20px;
-        font-family: Arial, Helvetica, sans-serif;
         padding: 2px;
         text-decoration: none;
         color: #fff;
@@ -485,10 +489,7 @@ i {
 
     }
 
-
-
     p {
-        font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
     }
 
@@ -659,25 +660,20 @@ i {
     }
 
     /* titulos */
+
+    h1{
+        font-size: 1.5rem;
+    }
     h2 {
         text-align: center;
         margin-top: 20px;
         color: #000;
-        font-size: 2.1rem;
-        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4rem;
     }
 
     h3 {
         color: #000;
         font-size: 3.1rem;
-    }
-
-    h2 {
-        margin-top: 10px;
-        font-size: 2.1em;
-        margin-bottom: 2px;
-        font-size: 30px;
-
     }
 
 }
