@@ -1,255 +1,248 @@
+/*----------------------------------------------Botões redes sociais---------------------------------------------------------------*/
 
-/* canais */
-.canais li a {
-    text-decoration: none;
-    list-style: none;
-    line-height: 20px;
-    color: #000;
-}
-
-.logo5{
-    width: 25%;
-    margin-top: 170;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-.img2 {
-    width: 30%;
-    border-radius: 2%;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    height: 30%;
-    margin: 20px;
-
-}
-
-
-
-.botao-ins,.botao-wats,.botao-fece,.botao-dis{
+.botao-ins,
+.botao-wats,
+.botao-fece,
+.botao-dis {
     position: relative;
 }
-/* botoes redes */
-.botao-wats a,.botao-fece a,.botao-inst a ,.botao-dis a{
-border-radius: 50%;
-position: fixed;
-width: 3.5rem;
-height:3.5rem;
-right: 95px;
-align-items: center;
-padding: 0 1px;
-text-decoration:none ;
-}
-.botao-inst a{
-    background: rgb(131,58,180);
-    background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    top: 240px;
-}
+
+.botao-wats a,
+.botao-fece a,
+.botao-inst a,
 .botao-dis a {
-    background: rgb(114,137,218);
-    top: 340px;
-}
-.botao-wats a{
-    background-color:rgb(18 140 126);
-    top: 440px;
-}
-.botao-fece a{
-    background-color:rgb(66,103,178);
-    top: 530px;
+    border-radius: 50%;
+    position: fixed;
+    width: 3.5rem;
+    height: 3.5rem;
+    right: 95px;
+    align-items: center;
+    padding: 0 1px;
+    text-decoration: none;
 }
 
+.botao-inst a {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(180deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    top: 170px;
+}
 
+.botao-wats a {
+    background-color: rgb(18 140 126);
+    top: 250px;
+}
 
+.botao-dis a {
+    background: rgb(114, 137, 218);
+    top: 330px;
+}
 
+.botao-fece a {
+    background-color: rgb(66, 103, 178);
+    top: 420px;
+}
 
-.botao-wats a::after{
+.botao-wats a::after {
     top: 0;
     left: 0;
     content: '';
     position: absolute;
-    background-color:rgb(18 140 126);
+    background-color: rgb(18 140 126);
     z-index: -1;
     opacity: .9;
     width: inherit;
     height: inherit;
     border-radius: 100%;
-    transform:  scale(0.5);
+    transform: scale(0.5);
     animation: pulse 5s ease-in-out infinite;
 }
-.botao-fece a::after{
+
+.botao-fece a::after {
     top: 0;
     left: 0;
     content: '';
     width: inherit;
     height: inherit;
     position: absolute;
-    background-color:rgb(66,103,178);
+    background-color: rgb(66, 103, 178);
     z-index: -1;
     opacity: .9;
     border-radius: 100%;
-    transform:  scale(0.5);
+    transform: scale(0.5);
     animation: pulse 6s ease-in-out infinite;
 }
 
-
-.botao-inst a::after{
+.botao-inst a::after {
     top: 0;
     left: 0;
     content: '';
     position: absolute;
     width: inherit;
     height: inherit;
-    background: rgb(131,58,180);
-    background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: rgb(131, 58, 180);
+    background: linear-gradient(180deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
     z-index: -1;
     opacity: 0;
     border-radius: 100%;
-    transform:  scale(0.5);
+    transform: scale(0.5);
     animation: pulse 4s ease-in-out infinite;
 }
 
-.botao-dis a::after{
+.botao-dis a::after {
     top: 0;
     left: 0;
     content: '';
     position: absolute;
     width: inherit;
     height: inherit;
-    background: rgb(114,137,218);
+    background: rgb(114, 137, 218);
     z-index: -1;
     opacity: .9;
     border-radius: 100%;
-    transform:  scale(0.5);
+    transform: scale(0.5);
     animation: pulse 4s ease-in-out infinite;
 }
 
 
-@keyframes pulse{
+@keyframes pulse {
 
-75%{
-    opacity: 0.5;
-}
-  100%{
-   transform: scale(1.2);
-   opacity: 0;
-  }
-}
+    75% {
+        opacity: 0.5;
+    }
 
-.logo-wats{
-position: fixed;
-left: 20;
-top: 320px;
-}
-.logo-wats a{
-text-decoration: none;
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
 }
 
-.pulse-whats{
- position: relative;
-border-radius: 50%;
-width: 3.5rem;
-height:3.5rem;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 5px;
-background-color:rgb(18, 140,126);
-font-size: 1.2em;
+
+.logo-wats {
+    position: fixed;
+    left: 20;
+    top: 320px;
+}
+
+.logo-wats a {
+    text-decoration: none;
+}
+
+.pulse-whats {
+    position: relative;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    padding: 5px;
+    background-color: rgb(18, 140, 126);
+    font-size: 1.2em;
 
 }
-.pulse-whats::after{ 
+
+.pulse-whats::after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    background-color:rgb(18 140 126);
+    background-color: rgb(18 140 126);
     z-index: -1;
     opacity: .9;
     width: inherit;
     height: inherit;
     border-radius: 100%;
-    transform:  scale(0.5);
+    transform: scale(0.5);
     animation: pulse 5s ease-in-out infinite;
 }
 
-@media screen and ( max-width:992px) {
-    .botao-wats a,.botao-fece a,.botao-inst a,.botao-dis a {
+@media screen and (max-width:992px) {
+
+    .container {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        height: -webkit-fill-available;
+        height: fill-available;
+        box-shadow: 0 4px 4px 1px #000;
+    }
+   .container{
+        
+    }
+
+
+
+    .botao-wats a,
+    .botao-fece a,
+    .botao-inst a,
+    .botao-dis a {
         border-radius: 50%;
         position: fixed;
-        z-index: 2;
+        z-index: 1;
         right: 20px;
         display: flex;
-       align-items: center;
-       padding: 0;
-       text-decoration: none;
-    
-    
+        align-items: center;
+        padding: 0;
+        text-decoration: none;
+
     }
-    #ws, #is,#fe #dis{
+
+    .logo-wats {
+        z-index: 1;
+    }
+
+    #ws,
+    #is,
+    #fe #dis {
         font-size: 4.1em;
         display: flex;
     }
 
-    .botao-inst{
-        background:radial-gradient(circle #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+    .botao-inst {
+        background: radial-gradient(circle #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
         top: 190px;
     }
+
     .botao-wats {
-        background:radial-gradient( rgb(18 140 126) 45% ,rgb(18 140 126) 50% );
+        position: absolute;
+        background: radial-gradient(rgb(18 140 126) 45%, rgb(18 140 126) 50%);
         top: 360px;
-     
+
     }
-    
+
     .botao-fece {
-         background:radial-gradient( rgb(66,103,178) 45% ,rgb(66,103,178) 50% );
-         top: 350;
+        background: radial-gradient(rgb(66, 103, 178) 45%, rgb(66, 103, 178) 50%);
+        top: 350px;
     }
+
     .botao-dis {
-        background:radial-gradient( rgb(114,137,218) 45% ,rgb(114,137,218) 50%);
-        top: 270px;}
-
-    }
-    
-    #ws,#is,#fe,#dis{
-     font-size: 1.5em;
-     display: flex;
-    }
-    .sombra-wats{
-        box-shadow: rgba(18 140 126) 0 0 10px;
+        background: radial-gradient(rgb(114, 137, 218) 45%, rgb(114, 137, 218) 50%);
+        top: 270px;
     }
 
-/* titulos */
+}
 
-h1 {
+#ws,
+#is,
+#fe,
+#dis {
+    font-size: 1.5em;
     display: flex;
-    color: #fff;
-    text-align: center;
-    font-size: 0.7em;
-    margin: 0 10px;
-    display: block; 
-    font-family: "Audiowide", sans-serif;
-    font-weight: bolder;
-    cursor: pointer;
-    }
-h2 {
-    text-align: center;
-    margin-top: 10px;
-    color: #000;
-    margin: 0 10px;
 }
 
-h3 {
-    color: #000;
-    font-size: 25px;
+.sombra-wats {
+    box-shadow: rgba(18 140 126) 0 0 10px;
 }
 
-h2 {
-    margin-top: 10px;
-    text-align: center;
-    font-weight: bolder;  
-    margin-bottom: 10px;
-    
+.sombra-fece,
+.sombra-inst,
+.sombra-dis,
+.sombra-wats {
+    position: absolute
 }
-/* container menu */
+
+/*-------------------------------------------container menu----------------------------------------------------------------*/
 .container-logo {
     align-items: center;
     display: inline-flex;
@@ -262,320 +255,288 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
-.container-menuH{
+
+.container-menuH {
     display: block;
 }
 
-
-/* imagens */
-img {
-    margin-top: 20px;
-    box-shadow: 0 4px 8px 1px #000;
-    border-radius: 2%;
-    margin-bottom: 10px;
- 
-}
-
-.img2 {
-    width: 15rem;
-    border-radius: 2%;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    height: 30%;
-    margin: 20px;
-
-}
-.img3 {
-    left: 0;
-    width:40%;
-    box-shadow: 0 4px 8px 1px #000;
-    border-radius: 2%;
-    margin-bottom: 20px;
-    margin-top: 30px;
-
-}
-.img4 {
-    width:40%;
-    box-shadow: 0 4px 8px 1px #000;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    height: 20%;
-    margin: 20px;
-
-}.imagens {
-padding: 10px;
-}
-
-.img {
-    width: 100px;
-    height: 100px;
-}
-.img5{
-border-radius: 50%;
-position: fixed;
-top: 0;
-}
-/* logos */
+/* ----------------------------------------------------Logo do site---------------------------------------------------------------*/
 .logo {
     border-radius: 50%;
     background-color: blue
 }
+
 .logo2 {
     width: 4em;
     border-radius: 50%;
 }
 
-.logo3{
+.logo3 {
     width: 60%;
     top: 0;
     border-radius: 50%;
     text-align: center;
 }
-.logo4{
+
+.logo4 {
     width: 30%;
     margin-top: 170;
     border-radius: 50%;
     margin: 0 auto;
 }
-.logo5{
+
+.logo5 {
     width: 25%;
     margin-top: 170;
     border-radius: 50%;
     margin: 0 auto;
 }
 
-
-.logo5{
+.logo5 {
     width: 25%;
     margin-top: 170;
     border-radius: 50%;
     margin: 0 auto;
 }
 
-/* conteudos da pagina */
-.conteudo2 {
-    margin-top: 10px;
-    
-   
-}
-.conteudo3{
-    margin-top: 140px;
-    text-align: center;
-    box-shadow: 0 8px 13px 4px rgb(70, 69, 69);
-}
-.conteudo p {
-    width: 80%;
+/*-------------------------------------------------Video Player-------------------------------------------------*/
+.video {
+    width: 70%;
+    height: 320px;
+    margin: 2rem;
 }
 
-.conteudo {
-    text-align: center;
-    margin-top:140px;
-    box-shadow: 0 8px 13px 4px #000;
+@media screen and (max-width:992px) {
+
+    .video {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        height: 220px;
+        z-index: 0;
+    }
+
 }
 
+@media(max-width:347px) {
+    .container-logo h1 {
+        display: none;
+    }
 
-/* menus ul li item*/
-ul li {
-    font-size: 14px;
-    list-style: none;
-    font-family: "Audiowide", sans-serif;
-    font-weight: bolder;
-    cursor: pointer;
-}
-.men>li{
-    font-size: 12px;
-    list-style: none;
-    font-family: "Audiowide", sans-serif;
-    font-weight: bolder;
-    cursor: pointer;
-    width: 100%;
-    height: 20px;  
-}
-.men > li:hover{
-font-size: 16px;
-line-height: 20px;
-transition: all .5s;
-}
-.items{
-    display: none;}
 
-.items{
-    display: flex;
+}
+
+@media(max-height:375px) {
+
+    /* menu */
+    .menu-mobile li i {
+        margin: 1%;
+        font-size: 1em;
+        color: #fff;
+        z-index: 1;
+    }
+
+    .menu-mobile {
+        top: 85px;
+        height: 80%;
+        overflow-x: scroll;
+    }
+
+    .menu-mobile {
+        top: 90px;
+    }
+
+    .menu {
+        width: 100%;
+        height: 50%;
+        margin-top: 15px;
+    }
+
+    .linhas {
+        font-size: 25px;
+        line-height: 75px;
+
+    }
+
+    .items {
+        height: 250px;
+        margin-top: -4px;
+    }
+
+    .cabecario {
+        height: 95px;
+    }
+
+    .li {
+
+        font-size: 1px;
+    }
+
+    h1 {
+        display: block;
+        font-size: 15px;
+        font-family: "Audiowide", sans-serif;
+        font-weight: bolder;
+        transition: all 1.3s ease-in;
+    }
+
+    .container--menu {
+        margin-top: -15px;
+
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+
+    /* conteudo */
+    .conteudo {
+        margin-top: 85px;
+    }
+
+    .conteudo3 {
+        margin-top: 85px;
+
+    }
+
+    /* imagem */
+    .img4 {
+        width: 75%;
+        box-shadow: 0 4px 8px 1px #000;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        height: 25%;
+        margin: 20px;
+    }
+
+    /* logos */
+    .logo4 {
+        width: 15%;
+        height: 35%;
+    }
+
+    .logo2 {
+        width: 17%;
+        height: 15%;
+    }
+
+
+    @media(min-height:393px) {
+        .menu-mobile {
+            height: 70%;
+            overflow-y: scroll;
+        }
+
+        .items {
+            height: 110px;
+        }
+
+        .linhas {
+            line-height: 55px;
+
+        }
+    }
+
+    .botao-inst a {
+        background: rgb(131, 58, 180);
+        background: linear-gradient(180deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+        top: 100px;
+    }
+
+    .botao-wats a {
+        background-color: rgb(18 140 126);
+        top: 235px;
+
+    }
+
+    .botao-dis a {
+        background: rgb(114, 137, 218);
+        top: 170px;
+    }
+
+    .botao-wats a {
+        background-color: rgb(18 140 126);
+        top: 235px;
+
+    }
+
+    .botao-fece a {
+        background-color: rgb(66, 103, 178);
+        top: 305px;
+
+    }
+
+    #ws,
+    #is,
+    #fe,
+    #dis {
+        font-size: 1.3em;
+        display: flex;
+
+    }
+
+    .botao-wats a,
+    .botao-fece a,
+    .botao-inst a,
+    .botao-dis a {
+        border-radius: 55%;
+        position: fixed;
+        z-index: 1;
+        right: 69px;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        text-decoration: none;
+
+    }
+
+    .logo-wats {
+        border-radius: 50%;
+        position: fixed;
+        padding: 0 1px;
+        background-color: rgb(18, 140, 126);
+        font-size: 1.3em;
+        left: 20;
+        top: 210px;
+        display: block;
+    }
+
+}
+
+/*--------------------------------------------Botao voltar ao topo -------------------------------------------------*/
+
+.btnRetorn {
+    width: .6rem;
+    height: .6rem;
+    display: none;
     align-items: center;
-    line-height: 65px;
-    margin: 0;
-    padding: 0; }
-.item li :hover{
-    list-style: none;
+    justify-content: center;
 }
-i{ margin: 15px;
-    font-size:20px;
-    color: #fff;
-    z-index: 1;
-    
+
+.btnRetorn i {
+    position: fixed;
+    top: 32rem;
+    right: 6rem;
+    background-color: #000;
+    font-weight: bolder;
+    border-radius: .5rem;
+    padding: .8rem 1rem;
+    margin: 0;
+
+}
+
+@media screen and (max-width:992px) {
+    .btnRetorn {
+        display: none;
+        width: .6rem;
+        height: .6rem;
     }
 
-/* video */
-    .video{
-        width: 70%;
-        height: 320px;
+    .btnRetorn i {
+        top: 80%;
+        right: 1.5rem;
     }
 
-        @media(max-width:347px) {
-        .container-logo h1{
-                display: none;}
- 
-                
-            }
-            
-        @media(max-height:375px) {
-            /* menu */
-                .menu-mobile li i{
-                margin: 1%;
-                font-size: 1em;
-                color: #fff;
-                z-index: 1;}
-
-                .menu-mobile{
-                    top: 85px;
-                    height:80%;
-                    overflow-x: scroll;
-                }
-                .menu-mobile{
-                    top: 90px;
-                }
-                
-                .menu{
-                    width: 100%;
-                    height: 50%;
-                    margin-top: 15px;
-                }
-                .linhas{
-                    font-size: 25px;
-                    line-height: 75px;
-     
-                }
-                .items{
-                    height: 250px;
-                  margin-top: -4px;
-                }
-                .cabecario{
-                    height: 95px;
-                }
-                .li {
-                    
-                    font-size: 1px;
-                }
-                h1{
-                    display: block; 
-                    font-size: 15px; 
-                    font-family: "Audiowide", sans-serif;
-                    font-weight: bolder;
-                    transition:all 1.3s ease-in ;
-                    }
-                    .container--menu{
-                        margin-top: -15px;
-                     
-                    }
-
-                    h2{
-                        font-size: 25px;
-                    }
-                    
-
-                /* conteudo */
-                .conteudo{
-                margin-top:85px;
-                }
-                .conteudo3{
-                margin-top: 85px;
-
-                }
-                /* imagem */
-                .img4 {
-                width: 75%;
-                box-shadow: 0 4px 8px 1px #000;
-                border-radius: 50%;
-                margin-bottom: 20px;
-                margin-top: 30px;
-                height: 25%;
-                margin: 20px;
-                }/* logos */
-                .logo4{
-                    width: 15%;
-                    height: 35%;
-                }
-                .logo2{
-                    width: 17%;
-                    height: 15%;
-                }
-               
-
-                @media(min-height:393px) {
-                    .menu-mobile{
-                        height:70%;
-                        overflow-y: scroll;
-                    }
-                    
-                    .items{
-                        height: 110px;  }
-                    .linhas{
-                        line-height: 55px;
-         
-                    }}
-                    .botao-inst a{
-                        background: rgb(131,58,180);
-                        background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-                        top: 100px;
-                    }
-                    .botao-wats a{
-                        background-color:rgb(18 140 126);
-                        top: 235px;
-                     
-                    }
-                    .botao-dis a{
-                        background: rgb(114,137,218);
-                        top: 170px;}
-
-                    .botao-wats a{
-                        background-color:rgb(18 140 126);
-                        top: 235px;
-                     
-                    }
-                    .botao-fece a{
-                        background-color:rgb(66,103,178);
-                        top: 305px;
-                     
-                    }
-                    #ws,#is,#fe,#dis{
-                        font-size:   1.3em;
-                        display: flex;
-                      
-                    }
-                    .botao-wats a,.botao-fece a,.botao-inst a,.botao-dis a {
-                        border-radius: 55%;
-                        position: fixed;
-                        z-index: 1;
-                       right: 69px;
-                       display: flex;
-                       align-items: center;
-                       padding: 0;
-                       text-decoration: none;
-                    
-                    }
-                    .logo-wats{
-                        border-radius: 50%;
-                        position: fixed;
-                        padding: 0 1px;
-                        background-color:rgb(18,140,126);
-                        font-size: 1.3em;
-                        left: 20;
-                        top: 210px;
-                        display: block;
-                        }
-
-            }
-
-          
-
+}

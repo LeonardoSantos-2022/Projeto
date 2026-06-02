@@ -1,19 +1,19 @@
 
-.container{
+.containerItemDownload{
 display: flex;
 align-items: center;
 justify-content: center;
-
 }
 
-.btn-downlo{
+.btn-download{
 position: relative;
 color: #fff;
-width: 35%;
-padding: .5em;
+width: 23em;
+display: flex;
+padding: .2em;
 border: none;
 display: inline-block;
-border-radius:2.5em;
+border-radius:1.3em;
 box-shadow: 0px 2px 7px 2px #000000;
 background-color:rgb(216, 216, 216);
 }
@@ -22,19 +22,19 @@ background-color:rgb(216, 216, 216);
 display: flex;
 justify-content: space-between;
 width: 100%;
-padding:  0 .3em .3em .2em;
+padding:  .3rem .7rem;
 background:linear-gradient(188deg, rgba(203, 203, 203, 1) 17%, rgba(0, 0, 0, 1) 45%);
-border:  .3em solid #fff;
-border-radius:1.5em;
+border:  .3rem solid #fff;
+border-radius:1.3em;
 }
 
 .btn-container p{
 position: absolute;
-top: 2rem;
+top: 1.7rem;
 font-size:2em;
 font-weight: bold;
 text-transform:uppercase;
-left: .1rem;
+left: 0;
 }
 
 .seta{
@@ -45,7 +45,7 @@ width: 18%;
 
 .seta img{
 object-fit: cover;
-width:100%;
+width:85%;
 margin: 0;
 border: none;
 border-radius:1em ;
@@ -55,8 +55,8 @@ background: transparent;
 .container-download{
 position: relative;
 width: 15%;
-height: 3.5em;
-margin: .8em .8em;
+
+margin: .5em .8em;
 background-color:#000;
 border-radius: .7em;
 border: .3em solid #fff;
@@ -66,14 +66,14 @@ border: .3em solid #fff;
 .download-btn{
 position: absolute;
 top: -.9rem;
-right: .7em;
+right: .6em;
 width:55%;
 object-fit: cover;
 animation: seta 1s linear infinite alternate;  
 }
 
 .download-btn img{
-width: 100%;
+width: 80%;
 object-fit: cover;
 
 }
@@ -82,26 +82,27 @@ object-fit: cover;
 width:55%;
 position: absolute;
 bottom: 0;
-right: .7em;
+right: .6em;
 }
 
 .base-btn img{
-width: 100%;
+width: 80%;
 object-fit: cover;
 }
 
 @keyframes seta {
     0%{
-    top: -.9rem;
+    top: -.7rem;
     }
 
     100%{
-    top:-.5rem;
+    top:-.3rem;
     }
 }
 
 @media screen and (min-width:992px) and (max-width:1000px) {
-    .btn-downlo{
+   
+    .btn-download{
     width: 40%;
     position: relative;
     color: #fff;
@@ -195,7 +196,10 @@ object-fit: cover;
 }
 
 @media screen and (max-width:992px) {
-    .btn-downlo{
+     .containerItemDownload{
+        flex-direction: column;
+    }
+    .btn-download{
     position: relative;
     color: #fff;
     width: 50%;
@@ -281,7 +285,7 @@ object-fit: cover;
         
 }
 @media screen and (min-width:770px) and (max-width:992px){
-    .btn-downlo{
+    .btn-download{
     width: 60%;
     position: relative;
     color: #fff;
@@ -373,7 +377,7 @@ object-fit: cover;
 }
 
 @media screen and (max-width:763px) {
-.btn-downlo{
+.btn-download{
     width: 60%;
     position: relative;
     color: #fff;
@@ -466,7 +470,7 @@ object-fit: cover;
 }
 
 @media screen and (max-width:565px){
-    .btn-downlo{
+    .btn-download{
     width: 60%;
     position: relative;
     color: #fff;
@@ -513,7 +517,7 @@ object-fit: cover;
 } 
          
 @media screen and (max-width:480px){
-    .btn-downlo{ 
+    .btn-download{ 
     width: 70%;
     position: relative;
     color: #fff;
@@ -587,7 +591,7 @@ object-fit: cover;
     }
 
 } @media screen and (max-width:392px){
-    .btn-downlo{
+    .btn-download{
     width:12em;
     position: relative;
     color: #fff;
