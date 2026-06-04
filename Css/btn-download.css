@@ -30,7 +30,7 @@ border-radius:1.3em;
 
 .btn-container p{
 position: absolute;
-top: 2rem;
+top: 2.2rem;
 font-size:1.8rem;
 font-weight: bold;
 text-transform:uppercase;
@@ -65,7 +65,7 @@ border: .3em solid #fff;
 
 .download-btn{
 position: absolute;
-top: -.9rem;
+top: 1rem;
 right: .6em;
 width:55%;
 object-fit: cover;
@@ -81,7 +81,7 @@ object-fit: cover;
 .base-btn{
 width:55%;
 position: absolute;
-bottom: 0;
+bottom: .1rem;
 right: .6em;
 }
 
@@ -92,7 +92,7 @@ object-fit: cover;
 
   @keyframes seta {
         0%{
-            top: -.9rem;
+            top: -1rem;
         } 100%{
             top:-.5rem;
             }
