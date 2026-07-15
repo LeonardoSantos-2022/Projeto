@@ -7,7 +7,6 @@ const menuH = document.querySelector('.menu-mobile');
 const btnRetornUp = document.getElementById('btnRetornUp');
 const btnRetornUpStyle = document.querySelector('.btnRetorn > i');
 
-btnRetornUp.addEventListener('click',()=> window.scroll(top, 0))
 
 botao.addEventListener('click', function () {
     menuChaveado.classList.toggle('active')
